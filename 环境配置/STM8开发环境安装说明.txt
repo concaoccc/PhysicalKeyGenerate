@@ -1,0 +1,7 @@
+sttoolset开发环境安装说明
+
+第一步安装编译器“cxstm8_32k.exe”；
+第二步安装编译器破解补丁“cxstm破解.zip”；
+第三步安装sttoolset“sttoolset_pack28.exe”。
+
+有问题联系<泽耀科技>！
