@@ -1,0 +1,2 @@
+# PhysicalKeyGenerate
+保存使用Zigbee进行秘钥生成的代码
