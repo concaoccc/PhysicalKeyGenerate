@@ -31,8 +31,7 @@ uint8_t *right="Right\n";
 uint8_t *wrong="Wrong\n";
 //uint8_t *changeline='\n';
 
-int sendFlag=0;
-uint8_t mChannel=0;
+
 /**
   * @brief :主函数 
   * @param :无
@@ -41,6 +40,8 @@ uint8_t mChannel=0;
   */ 
 int main( void )
 {	
+	int sendFlag=0;
+	uint8_t mChannel=0;
 	uint8_t i = 0;
 
 	//串口初始化
