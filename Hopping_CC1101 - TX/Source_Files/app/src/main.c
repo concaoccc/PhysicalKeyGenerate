@@ -22,7 +22,6 @@ const char *g_Ashining = "ashining";
 uint8_t g_TxMode = 0;
 uint8_t g_UartRxBuffer[ 100 ] = { 0 };
 uint8_t g_RF24L01RxBuffer[ 32 ] = { 0 }; 
-
 int rssi=0;
 uint8_t temp=65;
 uint8_t rssi_ascii[3];
@@ -102,7 +101,7 @@ int main( void )
 			drv_uart_tx_bytes( rssi_ascii, 3 );
 			
 			mChannel=mChannel+1;
-			if(mChannel==255) return 0;
+			if(mChannel==frame_number) return 0;
 			setChannel(mChannel);
 			//drv_uart_tx_bytes( changeline, 1 );
 			/*

@@ -26,7 +26,7 @@ uint8_t g_RF24L01RxBuffer[ 32 ] = { 0 };
 int rssi=0;
 uint8_t temp=65;
 uint8_t rssi_ascii[3];
-
+@near int rssi_data [number_frame] = { 0 };
 uint8_t *right="Right\n";
 uint8_t *wrong="Wrong\n";
 //uint8_t *changeline='\n';
@@ -86,7 +86,7 @@ int main( void )
 					
 					
 					mChannel=mChannel+1;
-					if(mChannel==255) return 0;
+					if(mChannel==number_frame) return 0;
 					setChannel(mChannel);
 					CC1101_Clear_RxBuffer( );
 					CC1101_Set_Mode( RX_MODE );
@@ -100,11 +100,11 @@ int main( void )
 		{
 			if(rssi>128) rssi=rssi-256;
 			rssi=rssi-114;
-			ToAscii(rssi,rssi_ascii);
+			//ToAscii(rssi,rssi_ascii);
 			sendFlag=1;
 			led_green_flashing( );
 			//drv_uart_tx_bytes( g_RF24L01RxBuffer, i );	//输出接收到的字节
-			drv_uart_tx_bytes( rssi_ascii, 3 );
+			//drv_uart_tx_bytes( rssi_ascii, 3 );
 			
 			
 			//drv_uart_tx_bytes( changeline, 1 );
