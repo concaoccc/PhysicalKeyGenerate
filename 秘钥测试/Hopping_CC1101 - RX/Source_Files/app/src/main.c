@@ -22,8 +22,8 @@ const char *g_Ashining = "ashining";
 uint8_t g_TxMode = 0;
 uint8_t g_UartRxBuffer[ 100 ] = { 0 };
 uint8_t g_RF24L01RxBuffer[ 32 ] = { 0 }; 
-
-@near int rssi_data[255] = { 0 };
+uint8_t rssi_buffer[15] = {0};
+@near int rssi_data[frame_num] = { 0 };
 int rssi=0;
 uint8_t temp=65;
 uint8_t rssi_ascii[3];
@@ -43,6 +43,9 @@ uint8_t mChannel=0;
 int main( void )
 {	
 	uint8_t i = 0;
+	uint8_t j = 0;
+	
+	uint8_t loop_num = frame_num/5;
 	int index = 0;
 	
 	//串口初始化
@@ -87,7 +90,7 @@ int main( void )
 					
 					
 					mChannel=mChannel+1;
-					if(mChannel==255) return 0;
+					if(mChannel==frame_num) break;
 					setChannel(mChannel);
 					CC1101_Clear_RxBuffer( );
 					CC1101_Set_Mode( RX_MODE );
@@ -105,7 +108,7 @@ int main( void )
 			index++;
 			//ToAscii(rssi,rssi_ascii);
 			sendFlag=1;
-			led_green_flashing( );
+			led_red_flashing( );
 			//drv_uart_tx_bytes( g_RF24L01RxBuffer, i );	//输出接收到的字节
 			//drv_uart_tx_bytes( rssi_ascii, 3 );
 			
@@ -122,8 +125,21 @@ int main( void )
 			}
 			*/
 		}
-	
 	}
+	
+	//进行rssi处理
+	for(i = 0; i < loop_num; i++)
+	{
+		for(j = 0; j < 5; j++)
+		{
+			ToAscii(rssi_data[i*5+j],rssi_ascii);
+			rssi_buffer[j*3] = rssi_ascii[0];
+			rssi_buffer[j*3+1] = rssi_ascii[1];
+			rssi_buffer[j*3+2] = rssi_ascii[2];
+		}
+		drv_uart_tx_bytes( rssi_buffer, 15 );
+	}
+	return 0;
 	
 
 	
