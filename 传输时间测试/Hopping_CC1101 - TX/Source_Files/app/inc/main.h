@@ -28,7 +28,6 @@
 //#define 	__CC1101_TX_TEST__							//**@@ 如果测试发送功能则需要定义该宏，如果测试接收则需要屏蔽该宏 **@@//
 //#define 	__USE_SOFT_SPI_INTERFACE__					//**@@ 如果使用软件SPI则需要定义该宏，反之如果使用硬件SPI则需要屏蔽该宏 **@@//
 
-#define number_frame 255
 
 /** 发送模式定义 */
 enum
