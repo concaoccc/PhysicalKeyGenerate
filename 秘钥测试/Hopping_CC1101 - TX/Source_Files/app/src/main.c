@@ -19,6 +19,8 @@
 
 
 const char *g_Ashining = "ashining";
+const char *label = "label!!";
+
 uint8_t g_TxMode = 0;
 uint8_t g_UartRxBuffer[ 100 ] = { 0 };
 uint8_t g_RF24L01RxBuffer[ 32 ] = { 0 }; 
@@ -45,6 +47,7 @@ int main( void )
 	uint8_t i = 0;
 	uint8_t j = 0;
 	int index = 0;
+	uint8_t current_loop = 0;
 	uint8_t loop_num = frame_num/5;
 	//串口初始化
 	drv_uart_init( 9600 );
@@ -124,6 +127,45 @@ int main( void )
 	
 	}
 	//进行rssi处理
+	/*
+	for(i = 0; i < loop_num; i++)
+	{
+		for(j = 0; j < 5; j++)
+		{
+			ToAscii(rssi_data[i*5+j],rssi_ascii);
+			rssi_buffer[j*3] = rssi_ascii[0];
+			rssi_buffer[j*3+1] = rssi_ascii[1];
+			rssi_buffer[j*3+2] = rssi_ascii[2];
+		}
+		drv_uart_tx_bytes( rssi_buffer, 15 );
+	}
+	*/
+	//drv_uart_tx_bytes( g_Ashining, 8 );
+	
+	//接收下位机的RSSI
+	
+	while( 1 )
+	{
+		led_red_on( );
+		CC1101_Clear_RxBuffer( );
+		CC1101_Set_Mode( RX_MODE );
+		i = CC1101_Rx_Packet( g_RF24L01RxBuffer,&rssi );		//接收字节
+		
+		if( 0 != i )
+		{
+			led_red_off( );
+			drv_uart_tx_bytes( g_RF24L01RxBuffer, i );
+			current_loop++;
+			if(current_loop == loop_num)
+			{
+				break;
+			}
+			
+		}
+	}
+	
+	drv_uart_tx_bytes( label, 7 );
+	//发送自己的RSSI
 	for(i = 0; i < loop_num; i++)
 	{
 		for(j = 0; j < 5; j++)
@@ -136,7 +178,6 @@ int main( void )
 		drv_uart_tx_bytes( rssi_buffer, 15 );
 	}
 	
-
 	return 0;
 	
 		
