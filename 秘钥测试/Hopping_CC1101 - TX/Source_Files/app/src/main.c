@@ -50,7 +50,7 @@ int main( void )
 	uint8_t current_loop = 0;
 	uint8_t loop_num = frame_num/5;
 	//串口初始化
-	drv_uart_init( 9600 );
+	drv_uart_init( 38400 );
 	
 	//LED初始化
 	drv_led_init( );
@@ -60,7 +60,7 @@ int main( void )
 	
 	//CC1101初始化
 	CC1101_Init( );
-	for( i = 0; i < 6; i++ )
+	for( i = 0; i < 8; i++ )
 	{
 		led_red_flashing( );
 		led_green_flashing( );
@@ -81,7 +81,7 @@ int main( void )
 		
 			if(sendFlag==1)
 			{
-				drv_delay_ms( 1000 );
+				//drv_delay_ms( 1000 );
 				sendFlag=0;
 					led_red_on( );
 					CC1101_Tx_Packet( (uint8_t *)g_Ashining, 8 , ADDRESS_CHECK );		//模式1发送固定字符,1S一包

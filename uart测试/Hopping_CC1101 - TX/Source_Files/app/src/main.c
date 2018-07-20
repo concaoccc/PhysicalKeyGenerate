@@ -44,7 +44,7 @@ int main( void )
 	uint8_t i = 0;
 
 	//串口初始化
-	drv_uart_init(19200);
+	drv_uart_init(38400);
 	
 	//LED初始化
 	drv_led_init( );
@@ -62,7 +62,7 @@ int main( void )
 	}
 	for( i =0; i< 100; i++)
 	{
-		drv_uart_tx_bytes( right, 6 );
+		drv_uart_tx_bytes(wrong , 6 );
 	}
 	/*
 	//CC1101_Clear_RxBuffer( );

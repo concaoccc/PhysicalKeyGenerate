@@ -24,4 +24,4 @@ source_files\std_lib\inc\stm8l10x_conf.h
 source_files\std_lib\inc\stm8l10x_gpio.h
 source_files\std_lib\inc\stm8l10x_spi.h
 source_files\std_lib\inc\stm8l10x_usart.h
-e:\program files\stvp\hstm8\mods0.h
+..\..\..\..\program files (x86)\cosmic\cxstm8_32k\hstm8\mods0.h

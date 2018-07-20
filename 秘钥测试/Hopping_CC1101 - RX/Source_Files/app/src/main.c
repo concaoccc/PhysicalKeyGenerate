@@ -49,7 +49,7 @@ int main( void )
 	int index = 0;
 	
 	//串口初始化
-	drv_uart_init( 9600 );
+	drv_uart_init( 38400);
 	
 	//LED初始化
 	drv_led_init( );

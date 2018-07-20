@@ -93,13 +93,13 @@ CC1101_GDO2_GPIO_PORT	source_files\drv_periph\inc\drv_cc1101.h	32;"	macro
 CC1101_GET_GDO0_STATUS	source_files\drv_periph\inc\drv_cc1101.h	44;"	macro
 CC1101_GET_GDO2_STATUS	source_files\drv_periph\inc\drv_cc1101.h	45;"	macro
 CC1101_Get_RxCounter	source_files\drv_periph\inc\drv_cc1101.h	83;"	prototype	signature:( void )
-CC1101_Get_RxCounter	source_files\drv_periph\src\drv_cc1101.c	351;"	function	signature:( void )
-CC1101_Gpio_Init	source_files\drv_periph\src\drv_cc1101.c	439;"	function	file:	signature:( void )
+CC1101_Get_RxCounter	source_files\drv_periph\src\drv_cc1101.c	352;"	function	signature:( void )
+CC1101_Gpio_Init	source_files\drv_periph\src\drv_cc1101.c	442;"	function	file:	signature:( void )
 CC1101_IOCFG0	source_files\drv_periph\inc\drv_cc1101_reg.h	26;"	macro
 CC1101_IOCFG1	source_files\drv_periph\inc\drv_cc1101_reg.h	25;"	macro
 CC1101_IOCFG2	source_files\drv_periph\inc\drv_cc1101_reg.h	24;"	macro
 CC1101_Init	source_files\drv_periph\inc\drv_cc1101.h	86;"	prototype	signature:( void )
-CC1101_Init	source_files\drv_periph\src\drv_cc1101.c	452;"	function	signature:( void )
+CC1101_Init	source_files\drv_periph\src\drv_cc1101.c	455;"	function	signature:( void )
 CC1101_LQI	source_files\drv_periph\inc\drv_cc1101_reg.h	99;"	macro
 CC1101_MARCSTATE	source_files\drv_periph\inc\drv_cc1101_reg.h	101;"	macro
 CC1101_MCSM0	source_files\drv_periph\inc\drv_cc1101_reg.h	48;"	macro
@@ -130,9 +130,9 @@ CC1101_Read_Reg	source_files\drv_periph\src\drv_cc1101.c	115;"	function	signatur
 CC1101_Read_Status	source_files\drv_periph\inc\drv_cc1101.h	74;"	prototype	signature:( uint8_t Addr )
 CC1101_Read_Status	source_files\drv_periph\src\drv_cc1101.c	136;"	function	signature:( uint8_t Addr )
 CC1101_Reset	source_files\drv_periph\inc\drv_cc1101.h	85;"	prototype	signature:( void )
-CC1101_Reset	source_files\drv_periph\src\drv_cc1101.c	424;"	function	signature:( void )
+CC1101_Reset	source_files\drv_periph\src\drv_cc1101.c	427;"	function	signature:( void )
 CC1101_Rx_Packet	source_files\drv_periph\inc\drv_cc1101.h	84;"	prototype	signature:( uint8_t *RxBuff,int *RSSI )
-CC1101_Rx_Packet	source_files\drv_periph\src\drv_cc1101.c	363;"	function	signature:( uint8_t *RxBuff,int *RSSI )
+CC1101_Rx_Packet	source_files\drv_periph\src\drv_cc1101.c	364;"	function	signature:( uint8_t *RxBuff,int *RSSI )
 CC1101_SAFC	source_files\drv_periph\inc\drv_cc1101_reg.h	87;"	macro
 CC1101_SCAL	source_files\drv_periph\inc\drv_cc1101_reg.h	78;"	macro
 CC1101_SET_CSN_HIGH	source_files\drv_periph\inc\drv_cc1101.h	41;"	macro
@@ -908,7 +908,7 @@ TX_MODE	source_files\drv_periph\inc\drv_cc1101.h	50;"	enumerator	enum:__anon3
 TX_MODE_1	source_files\app\inc\main.h	35;"	enumerator	enum:__anon1
 TX_MODE_2	source_files\app\inc\main.h	36;"	enumerator	enum:__anon1
 ToAscii	source_files\drv_periph\inc\drv_cc1101.h	88;"	prototype	signature:(int r,uint8_t *ascii)
-ToAscii	source_files\drv_periph\src\drv_cc1101.c	470;"	function	signature:(int r,uint8_t *ascii)
+ToAscii	source_files\drv_periph\src\drv_cc1101.c	473;"	function	signature:(int r,uint8_t *ascii)
 U16_MAX	source_files\std_lib\inc\stm8l10x.h	163;"	macro
 U32_MAX	source_files\std_lib\inc\stm8l10x.h	166;"	macro
 U8_MAX	source_files\std_lib\inc\stm8l10x.h	160;"	macro
@@ -1079,7 +1079,7 @@ __DRV_UART_H__	source_files\drv_mcu\inc\drv_uart.h	18;"	macro
 __I	source_files\std_lib\inc\stm8l10x.h	126;"	macro
 __IO	source_files\std_lib\inc\stm8l10x.h	128;"	macro
 __MAIN_H__	source_files\app\inc\main.h	19;"	macro
-__MODS0__	e:\program files\stvp\hstm8\mods0.h	11;"	macro
+__MODS0__	..\..\..\..\program files (x86)\cosmic\cxstm8_32k\hstm8\mods0.h	11;"	macro
 __O	source_files\std_lib\inc\stm8l10x.h	127;"	macro
 __STM8L10X_CLK_H	source_files\std_lib\inc\stm8l10x_clk.h	31;"	macro
 __STM8L10X_GPIO_H	source_files\std_lib\inc\stm8l10x_gpio.h	31;"	macro
@@ -1154,6 +1154,7 @@ led_green_on	source_files\drv_mcu\inc\drv_led.h	50;"	macro
 led_red_flashing	source_files\drv_mcu\inc\drv_led.h	48;"	macro
 led_red_off	source_files\drv_mcu\inc\drv_led.h	47;"	macro
 led_red_on	source_files\drv_mcu\inc\drv_led.h	46;"	macro
+mChannel	source_files\app\src\main.c	35;"	variable
 main	source_files\app\src\main.c	42;"	function	signature:( void )
 nop	source_files\std_lib\inc\stm8l10x.h	1317;"	macro
 nop	source_files\std_lib\inc\stm8l10x.h	1327;"	macro
@@ -1167,6 +1168,9 @@ rssi_ascii	source_files\app\src\main.c	28;"	variable
 s16	source_files\std_lib\inc\stm8l10x.h	143;"	typedef
 s32	source_files\std_lib\inc\stm8l10x.h	142;"	typedef
 s8	source_files\std_lib\inc\stm8l10x.h	144;"	typedef
+sendFlag	source_files\app\src\main.c	34;"	variable
+setChannel	source_files\drv_periph\inc\drv_cc1101.h	89;"	prototype	signature:(uint8_t channel)
+setChannel	source_files\drv_periph\src\drv_cc1101.c	494;"	function	signature:(uint8_t channel)
 sim	source_files\std_lib\inc\stm8l10x.h	1316;"	macro
 sim	source_files\std_lib\inc\stm8l10x.h	1326;"	macro
 sim	source_files\std_lib\inc\stm8l10x.h	1337;"	macro
