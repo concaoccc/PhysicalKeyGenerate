@@ -48,6 +48,8 @@ void drv_uart_init( uint32_t UartBaudRate )
   */
 void drv_uart_tx_bytes( uint8_t* TxBuffer, uint8_t Length )
 {
+	while( RESET == USART_GetFlagStatus( USART_FLAG_TXE ));
+	USART_SendData8( Length);
 	while( Length-- )
 	{
 		while( RESET == USART_GetFlagStatus( USART_FLAG_TXE ));
@@ -67,7 +69,9 @@ uint8_t drv_uart_rx_bytes( uint8_t* RxBuffer )
 {
 	uint8_t l_RxLength = 0;
 	uint16_t l_UartRxTimOut = 0xFFF;
-	
+	uint8_t need_length = 0;
+	while(!(RESET != USART_GetFlagStatus( USART_FLAG_RXNE )));
+	need_length = USART_ReceiveData8( );
 	while( l_UartRxTimOut-- )			//在超时范围内查询数据
 	{
 		if( RESET != USART_GetFlagStatus( USART_FLAG_RXNE ))
@@ -77,7 +81,7 @@ uint8_t drv_uart_rx_bytes( uint8_t* RxBuffer )
 			l_RxLength++;
 			l_UartRxTimOut = 0xFFF;		//恢复超时等待时间
 		}
-		if( 100 == l_RxLength )
+		if( need_length == l_RxLength )
 		{
 			break;						//字节不能超过100个字节，由于部分8位机内存较小，接收buffer开得较小
 		}
@@ -85,4 +89,3 @@ uint8_t drv_uart_rx_bytes( uint8_t* RxBuffer )
 	
 	return l_RxLength;					//返回接收到的字节个数
 }
-

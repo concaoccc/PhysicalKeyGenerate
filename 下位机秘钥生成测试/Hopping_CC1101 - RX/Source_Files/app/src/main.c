@@ -24,7 +24,6 @@ uint8_t g_UartRxBuffer[ 100 ] = { 0 };
 uint8_t g_RF24L01RxBuffer[ 32 ] = { 0 }; 
 uint8_t rssi_buffer[15] = {0};
 @near int rssi_data[frame_num] = { 0 };
-@near int tmp_value_1[frame_num] = {0 };
 //@near int tmp_value_2[frame_num] = {0 };
 int rssi=0;
 uint8_t temp=65;
@@ -106,7 +105,7 @@ int main( void )
 		led_green_flashing( );
 		drv_delay_ms( 500 );
 	}
-	
+
 	CC1101_Clear_RxBuffer( );
 	CC1101_Set_Mode( RX_MODE );
 

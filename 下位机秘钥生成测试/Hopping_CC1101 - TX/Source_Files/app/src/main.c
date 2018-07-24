@@ -126,23 +126,9 @@ int main( void )
 		}
 	
 	}
-	//进行rssi处理
-	/*
-	for(i = 0; i < loop_num; i++)
-	{
-		for(j = 0; j < 5; j++)
-		{
-			ToAscii(rssi_data[i*5+j],rssi_ascii);
-			rssi_buffer[j*3] = rssi_ascii[0];
-			rssi_buffer[j*3+1] = rssi_ascii[1];
-			rssi_buffer[j*3+2] = rssi_ascii[2];
-		}
-		drv_uart_tx_bytes( rssi_buffer, 15 );
-	}
-	*/
-	//drv_uart_tx_bytes( g_Ashining, 8 );
 	
 	//接收下位机的RSSI
+	/*
 	led_red_on( );
 	led_green_on();
 	while( 1 )
@@ -166,6 +152,7 @@ int main( void )
 	}
 	
 	drv_uart_tx_bytes( label, 7 );
+	*/
 	//发送自己的RSSI
 	for(i = 0; i < loop_num; i++)
 	{
