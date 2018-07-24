@@ -82,7 +82,7 @@ int main( void )
 			if(sendFlag==1)
 			{
 				sendFlag=0;
-				//drv_delay_ms( 1000 );	
+				  drv_delay_ms( 10 );	
 					//CC1101_Set_Mode( TX_MODE );
 					CC1101_Tx_Packet( (uint8_t *)g_Ashining, 8 , ADDRESS_CHECK );		//模式1发送固定字符,1S一包
 					//CC1101_Tx_Packet( (uint8_t *)g_Ashining, 8 , BROADCAST );
@@ -128,7 +128,8 @@ int main( void )
 	}
 	
 	//进行rssi处理
-	
+	led_green_on();
+	led_red_on();
 	for(i = 0; i < loop_num; i++)
 	{
 		for(j = 0; j < 5; j++)
@@ -138,10 +139,10 @@ int main( void )
 			rssi_buffer[j*3+1] = rssi_ascii[1];
 			rssi_buffer[j*3+2] = rssi_ascii[2];
 		}
-		led_green_on( );
-		drv_delay_ms(1000);
+		
+		drv_delay_ms(10);
 		CC1101_Tx_Packet( rssi_buffer, 15 , ADDRESS_CHECK );	
-		led_green_off( );
+		
 	}
 	for(i = 0; i < loop_num; i++)
 	{
@@ -154,7 +155,8 @@ int main( void )
 		}
 		drv_uart_tx_bytes( rssi_buffer, 15 );	
 	}
-	
+	led_red_on();
+	led_green_off( );
 	return 0;
 	
 

@@ -1128,7 +1128,7 @@ drv_spi_read_write_string	source_files\drv_mcu\src\drv_spi.c	92;"	function	signa
 drv_uart_init	source_files\drv_mcu\inc\drv_uart.h	34;"	prototype	signature:( uint32_t UartBaudRate )
 drv_uart_init	source_files\drv_mcu\src\drv_uart.c	27;"	function	signature:( uint32_t UartBaudRate )
 drv_uart_rx_bytes	source_files\drv_mcu\inc\drv_uart.h	36;"	prototype	signature:( uint8_t* RxBuffer )
-drv_uart_rx_bytes	source_files\drv_mcu\src\drv_uart.c	66;"	function	signature:( uint8_t* RxBuffer )
+drv_uart_rx_bytes	source_files\drv_mcu\src\drv_uart.c	68;"	function	signature:( uint8_t* RxBuffer )
 drv_uart_tx_bytes	source_files\drv_mcu\inc\drv_uart.h	35;"	prototype	signature:( uint8_t* TxBuffer, uint8_t Length )
 drv_uart_tx_bytes	source_files\drv_mcu\src\drv_uart.c	49;"	function	signature:( uint8_t* TxBuffer, uint8_t Length )
 enableInterrupts	source_files\std_lib\inc\stm8l10x.h	1313;"	macro
@@ -1154,21 +1154,22 @@ led_green_on	source_files\drv_mcu\inc\drv_led.h	50;"	macro
 led_red_flashing	source_files\drv_mcu\inc\drv_led.h	48;"	macro
 led_red_off	source_files\drv_mcu\inc\drv_led.h	47;"	macro
 led_red_on	source_files\drv_mcu\inc\drv_led.h	46;"	macro
-mChannel	source_files\app\src\main.c	35;"	variable
-main	source_files\app\src\main.c	42;"	function	signature:( void )
+mChannel	source_files\app\src\main.c	36;"	variable
+main	source_files\app\src\main.c	43;"	function	signature:( void )
 nop	source_files\std_lib\inc\stm8l10x.h	1317;"	macro
 nop	source_files\std_lib\inc\stm8l10x.h	1327;"	macro
 nop	source_files\std_lib\inc\stm8l10x.h	1338;"	macro
-right	source_files\app\src\main.c	30;"	variable
+right	source_files\app\src\main.c	31;"	variable
 rim	source_files\std_lib\inc\stm8l10x.h	1315;"	macro
 rim	source_files\std_lib\inc\stm8l10x.h	1325;"	macro
 rim	source_files\std_lib\inc\stm8l10x.h	1336;"	macro
-rssi	source_files\app\src\main.c	26;"	variable
-rssi_ascii	source_files\app\src\main.c	28;"	variable
+rssi	source_files\app\src\main.c	27;"	variable
+rssi_ascii	source_files\app\src\main.c	29;"	variable
 s16	source_files\std_lib\inc\stm8l10x.h	143;"	typedef
 s32	source_files\std_lib\inc\stm8l10x.h	142;"	typedef
 s8	source_files\std_lib\inc\stm8l10x.h	144;"	typedef
-sendFlag	source_files\app\src\main.c	34;"	variable
+sendFlag	source_files\app\src\main.c	35;"	variable
+send_test	source_files\app\src\main.c	25;"	variable
 setChannel	source_files\drv_periph\inc\drv_cc1101.h	89;"	prototype	signature:(uint8_t channel)
 setChannel	source_files\drv_periph\src\drv_cc1101.c	494;"	function	signature:(uint8_t channel)
 sim	source_files\std_lib\inc\stm8l10x.h	1316;"	macro
@@ -1181,7 +1182,7 @@ spi_set_mosi_hight	source_files\drv_mcu\inc\drv_spi.h	54;"	macro
 spi_set_mosi_low	source_files\drv_mcu\inc\drv_spi.h	55;"	macro
 spi_set_nss_high	source_files\drv_mcu\inc\drv_spi.h	43;"	macro
 spi_set_nss_low	source_files\drv_mcu\inc\drv_spi.h	44;"	macro
-temp	source_files\app\src\main.c	27;"	variable
+temp	source_files\app\src\main.c	28;"	variable
 trap	source_files\std_lib\inc\stm8l10x.h	1318;"	macro
 trap	source_files\std_lib\inc\stm8l10x.h	1328;"	macro
 trap	source_files\std_lib\inc\stm8l10x.h	1339;"	macro
@@ -1197,4 +1198,4 @@ wfe	source_files\std_lib\inc\stm8l10x.h	1341;"	macro
 wfi	source_files\std_lib\inc\stm8l10x.h	1319;"	macro
 wfi	source_files\std_lib\inc\stm8l10x.h	1329;"	macro
 wfi	source_files\std_lib\inc\stm8l10x.h	1340;"	macro
-wrong	source_files\app\src\main.c	31;"	variable
+wrong	source_files\app\src\main.c	32;"	variable

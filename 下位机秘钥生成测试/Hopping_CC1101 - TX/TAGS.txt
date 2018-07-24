@@ -1,0 +1,1200 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDRESS_CHECK	source_files\drv_periph\inc\drv_cc1101.h	65;"	enumerator	enum:__anon5
+APR	source_files\std_lib\inc\stm8l10x.h	214;"	member	struct:AWU_struct
+AREA	source_files\std_lib\inc\stm8l10x.h	1423;"	macro
+ARR	source_files\std_lib\inc\stm8l10x.h	1084;"	member	struct:TIM4_struct
+ARRH	source_files\std_lib\inc\stm8l10x.h	916;"	member	struct:TIM_struct
+ARRL	source_files\std_lib\inc\stm8l10x.h	917;"	member	struct:TIM_struct
+AWU	source_files\std_lib\inc\stm8l10x.h	1287;"	macro
+AWU_APR_APR	source_files\std_lib\inc\stm8l10x.h	239;"	macro
+AWU_APR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	224;"	macro
+AWU_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1258;"	macro
+AWU_CSR_AWUEN	source_files\std_lib\inc\stm8l10x.h	236;"	macro
+AWU_CSR_AWUF	source_files\std_lib\inc\stm8l10x.h	235;"	macro
+AWU_CSR_MSR	source_files\std_lib\inc\stm8l10x.h	237;"	macro
+AWU_CSR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	223;"	macro
+AWU_TBR_AWUTB	source_files\std_lib\inc\stm8l10x.h	241;"	macro
+AWU_TBR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	225;"	macro
+AWU_TypeDef	source_files\std_lib\inc\stm8l10x.h	217;"	typedef	typeref:struct:AWU_struct
+AWU_struct	source_files\std_lib\inc\stm8l10x.h	211;"	struct
+AffBit	source_files\std_lib\inc\stm8l10x.h	1397;"	macro
+BEEP	source_files\std_lib\inc\stm8l10x.h	1288;"	macro
+BEEP_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1260;"	macro
+BEEP_CSR_BEEPDIV	source_files\std_lib\inc\stm8l10x.h	275;"	macro
+BEEP_CSR_BEEPEN	source_files\std_lib\inc\stm8l10x.h	274;"	macro
+BEEP_CSR_BEEPSEL	source_files\std_lib\inc\stm8l10x.h	273;"	macro
+BEEP_CSR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	263;"	macro
+BEEP_TypeDef	source_files\std_lib\inc\stm8l10x.h	257;"	typedef	typeref:struct:BEEP_struct
+BEEP_struct	source_files\std_lib\inc\stm8l10x.h	253;"	struct
+BKR	source_files\std_lib\inc\stm8l10x.h	922;"	member	struct:TIM_struct
+BROADCAST	source_files\drv_periph\inc\drv_cc1101.h	64;"	enumerator	enum:__anon5
+BROAD_0	source_files\drv_periph\inc\drv_cc1101.h	58;"	enumerator	enum:__anon4
+BROAD_0AND255	source_files\drv_periph\inc\drv_cc1101.h	59;"	enumerator	enum:__anon4
+BROAD_ALL	source_files\drv_periph\inc\drv_cc1101.h	56;"	enumerator	enum:__anon4
+BROAD_NO	source_files\drv_periph\inc\drv_cc1101.h	57;"	enumerator	enum:__anon4
+BRR1	source_files\std_lib\inc\stm8l10x.h	1155;"	member	struct:USART_struct
+BRR2	source_files\std_lib\inc\stm8l10x.h	1156;"	member	struct:USART_struct
+BUTOTN_GPIO_PORT	source_files\drv_mcu\inc\drv_button.h	25;"	macro
+BUTOTN_PRESS_DOWN	source_files\drv_mcu\inc\drv_button.h	33;"	enumerator	enum:__anon2
+BUTOTN_UP	source_files\drv_mcu\inc\drv_button.h	32;"	enumerator	enum:__anon2
+BUTTON_GPIO_PIN	source_files\drv_mcu\inc\drv_button.h	26;"	macro
+BYTES_IN_RXFIFO	source_files\drv_periph\inc\drv_cc1101_reg.h	116;"	macro
+BYTE_0	source_files\std_lib\inc\stm8l10x.h	1404;"	macro
+BYTE_1	source_files\std_lib\inc\stm8l10x.h	1405;"	macro
+BYTE_2	source_files\std_lib\inc\stm8l10x.h	1406;"	macro
+BYTE_3	source_files\std_lib\inc\stm8l10x.h	1407;"	macro
+BitAction	source_files\std_lib\inc\stm8l10x.h	153;"	typedef	typeref:enum:__anon7
+BitClr	source_files\std_lib\inc\stm8l10x.h	1425;"	macro
+BitSet	source_files\std_lib\inc\stm8l10x.h	1426;"	macro
+BitStatus	source_files\std_lib\inc\stm8l10x.h	153;"	typedef	typeref:enum:__anon7
+BitVal	source_files\std_lib\inc\stm8l10x.h	1427;"	macro
+C1101_WOR_Init	source_files\drv_periph\inc\drv_cc1101.h	77;"	prototype	signature:( void )
+C1101_WOR_Init	source_files\drv_periph\src\drv_cc1101.c	217;"	function	signature:( void )
+CC1101InitData	source_files\drv_periph\src\drv_cc1101.c	23;"	variable	file:
+CC1101_ADDR	source_files\drv_periph\inc\drv_cc1101_reg.h	33;"	macro
+CC1101_AGCCTRL0	source_files\drv_periph\inc\drv_cc1101_reg.h	53;"	macro
+CC1101_AGCCTRL1	source_files\drv_periph\inc\drv_cc1101_reg.h	52;"	macro
+CC1101_AGCCTRL2	source_files\drv_periph\inc\drv_cc1101_reg.h	51;"	macro
+CC1101_AGCTEST	source_files\drv_periph\inc\drv_cc1101_reg.h	67;"	macro
+CC1101_AddrModeType	source_files\drv_periph\inc\drv_cc1101.h	60;"	typedef	typeref:enum:__anon4
+CC1101_BSCFG	source_files\drv_periph\inc\drv_cc1101_reg.h	50;"	macro
+CC1101_CHANNR	source_files\drv_periph\inc\drv_cc1101_reg.h	34;"	macro
+CC1101_CSN_GPIO_PIN	source_files\drv_periph\inc\drv_cc1101.h	36;"	macro
+CC1101_CSN_GPIO_PORT	source_files\drv_periph\inc\drv_cc1101.h	35;"	macro
+CC1101_Clear_RxBuffer	source_files\drv_periph\inc\drv_cc1101.h	81;"	prototype	signature:( void )
+CC1101_Clear_RxBuffer	source_files\drv_periph\src\drv_cc1101.c	289;"	function	signature:( void )
+CC1101_Clear_TxBuffer	source_files\drv_periph\inc\drv_cc1101.h	80;"	prototype	signature:( void )
+CC1101_Clear_TxBuffer	source_files\drv_periph\src\drv_cc1101.c	277;"	function	signature:( void )
+CC1101_DEVIATN	source_files\drv_periph\inc\drv_cc1101_reg.h	45;"	macro
+CC1101_FIFOTHR	source_files\drv_periph\inc\drv_cc1101_reg.h	27;"	macro
+CC1101_FOCCFG	source_files\drv_periph\inc\drv_cc1101_reg.h	49;"	macro
+CC1101_FREND0	source_files\drv_periph\inc\drv_cc1101_reg.h	58;"	macro
+CC1101_FREND1	source_files\drv_periph\inc\drv_cc1101_reg.h	57;"	macro
+CC1101_FREQ0	source_files\drv_periph\inc\drv_cc1101_reg.h	39;"	macro
+CC1101_FREQ1	source_files\drv_periph\inc\drv_cc1101_reg.h	38;"	macro
+CC1101_FREQ2	source_files\drv_periph\inc\drv_cc1101_reg.h	37;"	macro
+CC1101_FREQEST	source_files\drv_periph\inc\drv_cc1101_reg.h	98;"	macro
+CC1101_FSCAL0	source_files\drv_periph\inc\drv_cc1101_reg.h	62;"	macro
+CC1101_FSCAL1	source_files\drv_periph\inc\drv_cc1101_reg.h	61;"	macro
+CC1101_FSCAL2	source_files\drv_periph\inc\drv_cc1101_reg.h	60;"	macro
+CC1101_FSCAL3	source_files\drv_periph\inc\drv_cc1101_reg.h	59;"	macro
+CC1101_FSCTRL0	source_files\drv_periph\inc\drv_cc1101_reg.h	36;"	macro
+CC1101_FSCTRL1	source_files\drv_periph\inc\drv_cc1101_reg.h	35;"	macro
+CC1101_FSTEST	source_files\drv_periph\inc\drv_cc1101_reg.h	65;"	macro
+CC1101_GDO0_GPIO_PIN	source_files\drv_periph\inc\drv_cc1101.h	30;"	macro
+CC1101_GDO0_GPIO_PORT	source_files\drv_periph\inc\drv_cc1101.h	29;"	macro
+CC1101_GDO2_GPIO_PIN	source_files\drv_periph\inc\drv_cc1101.h	33;"	macro
+CC1101_GDO2_GPIO_PORT	source_files\drv_periph\inc\drv_cc1101.h	32;"	macro
+CC1101_GET_GDO0_STATUS	source_files\drv_periph\inc\drv_cc1101.h	44;"	macro
+CC1101_GET_GDO2_STATUS	source_files\drv_periph\inc\drv_cc1101.h	45;"	macro
+CC1101_Get_RxCounter	source_files\drv_periph\inc\drv_cc1101.h	83;"	prototype	signature:( void )
+CC1101_Get_RxCounter	source_files\drv_periph\src\drv_cc1101.c	352;"	function	signature:( void )
+CC1101_Gpio_Init	source_files\drv_periph\src\drv_cc1101.c	442;"	function	file:	signature:( void )
+CC1101_IOCFG0	source_files\drv_periph\inc\drv_cc1101_reg.h	26;"	macro
+CC1101_IOCFG1	source_files\drv_periph\inc\drv_cc1101_reg.h	25;"	macro
+CC1101_IOCFG2	source_files\drv_periph\inc\drv_cc1101_reg.h	24;"	macro
+CC1101_Init	source_files\drv_periph\inc\drv_cc1101.h	86;"	prototype	signature:( void )
+CC1101_Init	source_files\drv_periph\src\drv_cc1101.c	455;"	function	signature:( void )
+CC1101_LQI	source_files\drv_periph\inc\drv_cc1101_reg.h	99;"	macro
+CC1101_MARCSTATE	source_files\drv_periph\inc\drv_cc1101_reg.h	101;"	macro
+CC1101_MCSM0	source_files\drv_periph\inc\drv_cc1101_reg.h	48;"	macro
+CC1101_MCSM1	source_files\drv_periph\inc\drv_cc1101_reg.h	47;"	macro
+CC1101_MCSM2	source_files\drv_periph\inc\drv_cc1101_reg.h	46;"	macro
+CC1101_MDMCFG0	source_files\drv_periph\inc\drv_cc1101_reg.h	44;"	macro
+CC1101_MDMCFG1	source_files\drv_periph\inc\drv_cc1101_reg.h	43;"	macro
+CC1101_MDMCFG2	source_files\drv_periph\inc\drv_cc1101_reg.h	42;"	macro
+CC1101_MDMCFG3	source_files\drv_periph\inc\drv_cc1101_reg.h	41;"	macro
+CC1101_MDMCFG4	source_files\drv_periph\inc\drv_cc1101_reg.h	40;"	macro
+CC1101_ModeType	source_files\drv_periph\inc\drv_cc1101.h	52;"	typedef	typeref:enum:__anon3
+CC1101_PARTNUM	source_files\drv_periph\inc\drv_cc1101_reg.h	96;"	macro
+CC1101_PATABLE	source_files\drv_periph\inc\drv_cc1101_reg.h	109;"	macro
+CC1101_PKTCTRL0	source_files\drv_periph\inc\drv_cc1101_reg.h	32;"	macro
+CC1101_PKTCTRL1	source_files\drv_periph\inc\drv_cc1101_reg.h	31;"	macro
+CC1101_PKTLEN	source_files\drv_periph\inc\drv_cc1101_reg.h	30;"	macro
+CC1101_PKTSTATUS	source_files\drv_periph\inc\drv_cc1101_reg.h	104;"	macro
+CC1101_PTEST	source_files\drv_periph\inc\drv_cc1101_reg.h	66;"	macro
+CC1101_RCCTRL0	source_files\drv_periph\inc\drv_cc1101_reg.h	64;"	macro
+CC1101_RCCTRL1	source_files\drv_periph\inc\drv_cc1101_reg.h	63;"	macro
+CC1101_RSSI	source_files\drv_periph\inc\drv_cc1101_reg.h	100;"	macro
+CC1101_RXBYTES	source_files\drv_periph\inc\drv_cc1101_reg.h	107;"	macro
+CC1101_RXFIFO	source_files\drv_periph\inc\drv_cc1101_reg.h	111;"	macro
+CC1101_Read_Multi_Reg	source_files\drv_periph\inc\drv_cc1101.h	73;"	prototype	signature:( uint8_t Addr, uint8_t *pReadBuff, uint8_t ReadSize )
+CC1101_Read_Multi_Reg	source_files\drv_periph\src\drv_cc1101.c	159;"	function	signature:( uint8_t Addr, uint8_t *pReadBuff, uint8_t ReadSize )
+CC1101_Read_Reg	source_files\drv_periph\inc\drv_cc1101.h	72;"	prototype	signature:( uint8_t Addr )
+CC1101_Read_Reg	source_files\drv_periph\src\drv_cc1101.c	115;"	function	signature:( uint8_t Addr )
+CC1101_Read_Status	source_files\drv_periph\inc\drv_cc1101.h	74;"	prototype	signature:( uint8_t Addr )
+CC1101_Read_Status	source_files\drv_periph\src\drv_cc1101.c	136;"	function	signature:( uint8_t Addr )
+CC1101_Reset	source_files\drv_periph\inc\drv_cc1101.h	85;"	prototype	signature:( void )
+CC1101_Reset	source_files\drv_periph\src\drv_cc1101.c	427;"	function	signature:( void )
+CC1101_Rx_Packet	source_files\drv_periph\inc\drv_cc1101.h	84;"	prototype	signature:( uint8_t *RxBuff,int *RSSI )
+CC1101_Rx_Packet	source_files\drv_periph\src\drv_cc1101.c	364;"	function	signature:( uint8_t *RxBuff,int *RSSI )
+CC1101_SAFC	source_files\drv_periph\inc\drv_cc1101_reg.h	87;"	macro
+CC1101_SCAL	source_files\drv_periph\inc\drv_cc1101_reg.h	78;"	macro
+CC1101_SET_CSN_HIGH	source_files\drv_periph\inc\drv_cc1101.h	41;"	macro
+CC1101_SET_CSN_LOW	source_files\drv_periph\inc\drv_cc1101.h	42;"	macro
+CC1101_SFRX	source_files\drv_periph\inc\drv_cc1101_reg.h	90;"	macro
+CC1101_SFSTXON	source_files\drv_periph\inc\drv_cc1101_reg.h	74;"	macro
+CC1101_SFTX	source_files\drv_periph\inc\drv_cc1101_reg.h	91;"	macro
+CC1101_SIDLE	source_files\drv_periph\inc\drv_cc1101_reg.h	85;"	macro
+CC1101_SNOP	source_files\drv_periph\inc\drv_cc1101_reg.h	93;"	macro
+CC1101_SPWD	source_files\drv_periph\inc\drv_cc1101_reg.h	89;"	macro
+CC1101_SRES	source_files\drv_periph\inc\drv_cc1101_reg.h	73;"	macro
+CC1101_SRX	source_files\drv_periph\inc\drv_cc1101_reg.h	80;"	macro
+CC1101_STX	source_files\drv_periph\inc\drv_cc1101_reg.h	82;"	macro
+CC1101_SWOR	source_files\drv_periph\inc\drv_cc1101_reg.h	88;"	macro
+CC1101_SWORRST	source_files\drv_periph\inc\drv_cc1101_reg.h	92;"	macro
+CC1101_SXOFF	source_files\drv_periph\inc\drv_cc1101_reg.h	77;"	macro
+CC1101_SYNC0	source_files\drv_periph\inc\drv_cc1101_reg.h	29;"	macro
+CC1101_SYNC1	source_files\drv_periph\inc\drv_cc1101_reg.h	28;"	macro
+CC1101_Set_Address	source_files\drv_periph\inc\drv_cc1101.h	78;"	prototype	signature:( uint8_t address, CC1101_AddrModeType AddressMode)
+CC1101_Set_Address	source_files\drv_periph\src\drv_cc1101.c	235;"	function	signature:( uint8_t Address, CC1101_AddrModeType AddressMode)
+CC1101_Set_Idle_Mode	source_files\drv_periph\inc\drv_cc1101.h	76;"	prototype	signature:( void )
+CC1101_Set_Idle_Mode	source_files\drv_periph\src\drv_cc1101.c	206;"	function	signature:( void )
+CC1101_Set_Mode	source_files\drv_periph\inc\drv_cc1101.h	75;"	prototype	signature:( CC1101_ModeType Mode )
+CC1101_Set_Mode	source_files\drv_periph\src\drv_cc1101.c	182;"	function	signature:( CC1101_ModeType Mode )
+CC1101_Set_Sync	source_files\drv_periph\inc\drv_cc1101.h	79;"	prototype	signature:( uint16_t Sync )
+CC1101_Set_Sync	source_files\drv_periph\src\drv_cc1101.c	265;"	function	signature:( uint16_t Sync )
+CC1101_TEST0	source_files\drv_periph\inc\drv_cc1101_reg.h	70;"	macro
+CC1101_TEST1	source_files\drv_periph\inc\drv_cc1101_reg.h	69;"	macro
+CC1101_TEST2	source_files\drv_periph\inc\drv_cc1101_reg.h	68;"	macro
+CC1101_TXBYTES	source_files\drv_periph\inc\drv_cc1101_reg.h	106;"	macro
+CC1101_TXFIFO	source_files\drv_periph\inc\drv_cc1101_reg.h	110;"	macro
+CC1101_TxDataModeType	source_files\drv_periph\inc\drv_cc1101.h	66;"	typedef	typeref:enum:__anon5
+CC1101_Tx_Packet	source_files\drv_periph\inc\drv_cc1101.h	82;"	prototype	signature:( uint8_t *pTxBuff, uint8_t TxSize, CC1101_TxDataModeType DataMode )
+CC1101_Tx_Packet	source_files\drv_periph\src\drv_cc1101.c	304;"	function	signature:( uint8_t *pTxBuff, uint8_t TxSize, CC1101_TxDataModeType DataMode )
+CC1101_VCO_VC_DAC	source_files\drv_periph\inc\drv_cc1101_reg.h	105;"	macro
+CC1101_VERSION	source_files\drv_periph\inc\drv_cc1101_reg.h	97;"	macro
+CC1101_WORCTRL	source_files\drv_periph\inc\drv_cc1101_reg.h	56;"	macro
+CC1101_WOREVT0	source_files\drv_periph\inc\drv_cc1101_reg.h	55;"	macro
+CC1101_WOREVT1	source_files\drv_periph\inc\drv_cc1101_reg.h	54;"	macro
+CC1101_WORTIME0	source_files\drv_periph\inc\drv_cc1101_reg.h	103;"	macro
+CC1101_WORTIME1	source_files\drv_periph\inc\drv_cc1101_reg.h	102;"	macro
+CC1101_Write_Cmd	source_files\drv_periph\inc\drv_cc1101.h	69;"	prototype	signature:( uint8_t Command )
+CC1101_Write_Cmd	source_files\drv_periph\src\drv_cc1101.c	57;"	function	signature:( uint8_t Command )
+CC1101_Write_Multi_Reg	source_files\drv_periph\inc\drv_cc1101.h	71;"	prototype	signature:( uint8_t Addr, uint8_t *pWriteBuff, uint8_t WriteSize )
+CC1101_Write_Multi_Reg	source_files\drv_periph\src\drv_cc1101.c	93;"	function	signature:( uint8_t Addr, uint8_t *pWriteBuff, uint8_t WriteSize )
+CC1101_Write_Reg	source_files\drv_periph\inc\drv_cc1101.h	70;"	prototype	signature:( uint8_t Addr, uint8_t WriteValue )
+CC1101_Write_Reg	source_files\drv_periph\src\drv_cc1101.c	74;"	function	signature:( uint8_t Addr, uint8_t WriteValue )
+CCER1	source_files\std_lib\inc\stm8l10x.h	912;"	member	struct:TIM_struct
+CCMR1	source_files\std_lib\inc\stm8l10x.h	910;"	member	struct:TIM_struct
+CCMR2	source_files\std_lib\inc\stm8l10x.h	911;"	member	struct:TIM_struct
+CCOR	source_files\std_lib\inc\stm8l10x.h	330;"	member	struct:CLK_struct
+CCR1H	source_files\std_lib\inc\stm8l10x.h	918;"	member	struct:TIM_struct
+CCR1L	source_files\std_lib\inc\stm8l10x.h	919;"	member	struct:TIM_struct
+CCR2H	source_files\std_lib\inc\stm8l10x.h	920;"	member	struct:TIM_struct
+CCR2L	source_files\std_lib\inc\stm8l10x.h	921;"	member	struct:TIM_struct
+CCRH	source_files\std_lib\inc\stm8l10x.h	557;"	member	struct:I2C_struct
+CCRL	source_files\std_lib\inc\stm8l10x.h	556;"	member	struct:I2C_struct
+CCS	source_files\std_lib\inc\stm8l10x.h	374;"	member	struct:COMP_struct
+CFG	source_files\std_lib\inc\stm8l10x.h	1297;"	macro
+CFG_GCR_AL	source_files\std_lib\inc\stm8l10x.h	308;"	macro
+CFG_GCR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	297;"	macro
+CFG_GCR_SWD	source_files\std_lib\inc\stm8l10x.h	307;"	macro
+CFG_TypeDef	source_files\std_lib\inc\stm8l10x.h	291;"	typedef	typeref:struct:CFG_struct
+CFG_struct	source_files\std_lib\inc\stm8l10x.h	287;"	struct
+CKDIVR	source_files\std_lib\inc\stm8l10x.h	325;"	member	struct:CLK_struct
+CLK	source_files\std_lib\inc\stm8l10x.h	1284;"	macro
+CLK_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1254;"	macro
+CLK_CCOCmd	source_files\std_lib\inc\stm8l10x_clk.h	137;"	prototype	signature:(FunctionalState NewState)
+CLK_CCOCmd	source_files\std_lib\src\stm8l10x_clk.c	80;"	function	signature:(FunctionalState NewState)
+CLK_CCOConfig	source_files\std_lib\inc\stm8l10x_clk.h	141;"	prototype	signature:(CLK_Output_TypeDef CLK_Output)
+CLK_CCOConfig	source_files\std_lib\src\stm8l10x_clk.c	161;"	function	signature:(CLK_Output_TypeDef CLK_Output)
+CLK_CCOR_CCOEN	source_files\std_lib\inc\stm8l10x.h	360;"	macro
+CLK_CCOR_CCOSEL	source_files\std_lib\inc\stm8l10x.h	359;"	macro
+CLK_CCOR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	339;"	macro
+CLK_CKDIVR_HSIDIV	source_files\std_lib\inc\stm8l10x.h	348;"	macro
+CLK_CKDIVR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	337;"	macro
+CLK_DeInit	source_files\std_lib\inc\stm8l10x_clk.h	136;"	prototype	signature:(void)
+CLK_DeInit	source_files\std_lib\src\stm8l10x_clk.c	68;"	function	signature:(void)
+CLK_GetClockFreq	source_files\std_lib\inc\stm8l10x_clk.h	142;"	prototype	signature:(void)
+CLK_GetClockFreq	source_files\std_lib\src\stm8l10x_clk.c	181;"	function	signature:(void)
+CLK_MasterPrescalerConfig	source_files\std_lib\inc\stm8l10x_clk.h	140;"	prototype	signature:(CLK_MasterPrescaler_TypeDef CLK_MasterPrescaler)
+CLK_MasterPrescalerConfig	source_files\std_lib\src\stm8l10x_clk.c	141;"	function	signature:(CLK_MasterPrescaler_TypeDef CLK_MasterPrescaler)
+CLK_MasterPrescaler_HSIDiv1	source_files\std_lib\inc\stm8l10x_clk.h	70;"	enumerator	enum:__anon12
+CLK_MasterPrescaler_HSIDiv2	source_files\std_lib\inc\stm8l10x_clk.h	71;"	enumerator	enum:__anon12
+CLK_MasterPrescaler_HSIDiv4	source_files\std_lib\inc\stm8l10x_clk.h	72;"	enumerator	enum:__anon12
+CLK_MasterPrescaler_HSIDiv8	source_files\std_lib\inc\stm8l10x_clk.h	73;"	enumerator	enum:__anon12
+CLK_MasterPrescaler_TypeDef	source_files\std_lib\inc\stm8l10x_clk.h	74;"	typedef	typeref:enum:__anon12
+CLK_Output_ClockMaster	source_files\std_lib\inc\stm8l10x_clk.h	47;"	enumerator	enum:__anon10
+CLK_Output_ClockMasterDiv16	source_files\std_lib\inc\stm8l10x_clk.h	50;"	enumerator	enum:__anon10
+CLK_Output_ClockMasterDiv2	source_files\std_lib\inc\stm8l10x_clk.h	48;"	enumerator	enum:__anon10
+CLK_Output_ClockMasterDiv4	source_files\std_lib\inc\stm8l10x_clk.h	49;"	enumerator	enum:__anon10
+CLK_Output_TypeDef	source_files\std_lib\inc\stm8l10x_clk.h	51;"	typedef	typeref:enum:__anon10
+CLK_PCKENR_AWU	source_files\std_lib\inc\stm8l10x.h	356;"	macro
+CLK_PCKENR_I2C	source_files\std_lib\inc\stm8l10x.h	353;"	macro
+CLK_PCKENR_PXS	source_files\std_lib\inc\stm8l10x.h	357;"	macro
+CLK_PCKENR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	338;"	macro
+CLK_PCKENR_SPI	source_files\std_lib\inc\stm8l10x.h	354;"	macro
+CLK_PCKENR_TIM2	source_files\std_lib\inc\stm8l10x.h	350;"	macro
+CLK_PCKENR_TIM3	source_files\std_lib\inc\stm8l10x.h	351;"	macro
+CLK_PCKENR_TIM4	source_files\std_lib\inc\stm8l10x.h	352;"	macro
+CLK_PCKENR_USART	source_files\std_lib\inc\stm8l10x.h	355;"	macro
+CLK_PeripheralClockConfig	source_files\std_lib\inc\stm8l10x_clk.h	138;"	prototype	signature:(CLK_Peripheral_TypeDef CLK_Peripheral, FunctionalState NewState)
+CLK_PeripheralClockConfig	source_files\std_lib\src\stm8l10x_clk.c	113;"	function	signature:(CLK_Peripheral_TypeDef CLK_Peripheral, FunctionalState NewState)
+CLK_Peripheral_AWU	source_files\std_lib\inc\stm8l10x_clk.h	63;"	enumerator	enum:__anon11
+CLK_Peripheral_I2C	source_files\std_lib\inc\stm8l10x_clk.h	60;"	enumerator	enum:__anon11
+CLK_Peripheral_SPI	source_files\std_lib\inc\stm8l10x_clk.h	61;"	enumerator	enum:__anon11
+CLK_Peripheral_TIM2	source_files\std_lib\inc\stm8l10x_clk.h	57;"	enumerator	enum:__anon11
+CLK_Peripheral_TIM3	source_files\std_lib\inc\stm8l10x_clk.h	58;"	enumerator	enum:__anon11
+CLK_Peripheral_TIM4	source_files\std_lib\inc\stm8l10x_clk.h	59;"	enumerator	enum:__anon11
+CLK_Peripheral_TypeDef	source_files\std_lib\inc\stm8l10x_clk.h	64;"	typedef	typeref:enum:__anon11
+CLK_Peripheral_USART	source_files\std_lib\inc\stm8l10x_clk.h	62;"	enumerator	enum:__anon11
+CLK_TypeDef	source_files\std_lib\inc\stm8l10x.h	332;"	typedef	typeref:struct:CLK_struct
+CLK_struct	source_files\std_lib\inc\stm8l10x.h	323;"	struct
+CNTR	source_files\std_lib\inc\stm8l10x.h	1082;"	member	struct:TIM4_struct
+CNTRH	source_files\std_lib\inc\stm8l10x.h	913;"	member	struct:TIM_struct
+CNTRL	source_files\std_lib\inc\stm8l10x.h	914;"	member	struct:TIM_struct
+COMP	source_files\std_lib\inc\stm8l10x.h	1299;"	macro
+COMP_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1246;"	macro
+COMP_CCS_COMP1CH1	source_files\std_lib\inc\stm8l10x.h	418;"	macro
+COMP_CCS_COMP1CH2	source_files\std_lib\inc\stm8l10x.h	417;"	macro
+COMP_CCS_COMP1CH3	source_files\std_lib\inc\stm8l10x.h	416;"	macro
+COMP_CCS_COMP1CH4	source_files\std_lib\inc\stm8l10x.h	415;"	macro
+COMP_CCS_COMP2CH1	source_files\std_lib\inc\stm8l10x.h	414;"	macro
+COMP_CCS_COMP2CH2	source_files\std_lib\inc\stm8l10x.h	413;"	macro
+COMP_CCS_COMP2CH3	source_files\std_lib\inc\stm8l10x.h	412;"	macro
+COMP_CCS_COMP2CH4	source_files\std_lib\inc\stm8l10x.h	411;"	macro
+COMP_CCS_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	383;"	macro
+COMP_CR_BIASEN	source_files\std_lib\inc\stm8l10x.h	400;"	macro
+COMP_CR_CNFTIM	source_files\std_lib\inc\stm8l10x.h	395;"	macro
+COMP_CR_COMP1EN	source_files\std_lib\inc\stm8l10x.h	399;"	macro
+COMP_CR_COMP2EN	source_files\std_lib\inc\stm8l10x.h	398;"	macro
+COMP_CR_COMPREF	source_files\std_lib\inc\stm8l10x.h	397;"	macro
+COMP_CR_IC1BK	source_files\std_lib\inc\stm8l10x.h	394;"	macro
+COMP_CR_POL	source_files\std_lib\inc\stm8l10x.h	396;"	macro
+COMP_CR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	381;"	macro
+COMP_CSR_CEF1	source_files\std_lib\inc\stm8l10x.h	406;"	macro
+COMP_CSR_CEF2	source_files\std_lib\inc\stm8l10x.h	404;"	macro
+COMP_CSR_COMP1OUT	source_files\std_lib\inc\stm8l10x.h	408;"	macro
+COMP_CSR_COMP2OUT	source_files\std_lib\inc\stm8l10x.h	407;"	macro
+COMP_CSR_ITEN1	source_files\std_lib\inc\stm8l10x.h	405;"	macro
+COMP_CSR_ITEN2	source_files\std_lib\inc\stm8l10x.h	403;"	macro
+COMP_CSR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	382;"	macro
+COMP_TypeDef	source_files\std_lib\inc\stm8l10x.h	376;"	typedef	typeref:struct:COMP_struct
+COMP_struct	source_files\std_lib\inc\stm8l10x.h	370;"	struct
+CONF	source_files\std_lib\inc\stm8l10x.h	436;"	member	struct:EXTI_struct
+CONST	source_files\std_lib\inc\stm8l10x.h	59;"	macro
+CONST	source_files\std_lib\inc\stm8l10x.h	65;"	macro
+CONST	source_files\std_lib\inc\stm8l10x.h	72;"	macro
+CR	source_files\std_lib\inc\stm8l10x.h	372;"	member	struct:COMP_struct
+CR	source_files\std_lib\inc\stm8l10x.h	650;"	member	struct:IRTIM_struct
+CR	source_files\std_lib\inc\stm8l10x.h	802;"	member	struct:RST_struct
+CR1	source_files\std_lib\inc\stm8l10x.h	1076;"	member	struct:TIM4_struct
+CR1	source_files\std_lib\inc\stm8l10x.h	1157;"	member	struct:USART_struct
+CR1	source_files\std_lib\inc\stm8l10x.h	191;"	member	struct:GPIO_struct
+CR1	source_files\std_lib\inc\stm8l10x.h	431;"	member	struct:EXTI_struct
+CR1	source_files\std_lib\inc\stm8l10x.h	491;"	member	struct:FLASH_struct
+CR1	source_files\std_lib\inc\stm8l10x.h	545;"	member	struct:I2C_struct
+CR1	source_files\std_lib\inc\stm8l10x.h	739;"	member	struct:WFE_struct
+CR1	source_files\std_lib\inc\stm8l10x.h	840;"	member	struct:SPI_struct
+CR1	source_files\std_lib\inc\stm8l10x.h	902;"	member	struct:TIM_struct
+CR2	source_files\std_lib\inc\stm8l10x.h	1077;"	member	struct:TIM4_struct
+CR2	source_files\std_lib\inc\stm8l10x.h	1158;"	member	struct:USART_struct
+CR2	source_files\std_lib\inc\stm8l10x.h	192;"	member	struct:GPIO_struct
+CR2	source_files\std_lib\inc\stm8l10x.h	432;"	member	struct:EXTI_struct
+CR2	source_files\std_lib\inc\stm8l10x.h	492;"	member	struct:FLASH_struct
+CR2	source_files\std_lib\inc\stm8l10x.h	546;"	member	struct:I2C_struct
+CR2	source_files\std_lib\inc\stm8l10x.h	740;"	member	struct:WFE_struct
+CR2	source_files\std_lib\inc\stm8l10x.h	841;"	member	struct:SPI_struct
+CR2	source_files\std_lib\inc\stm8l10x.h	903;"	member	struct:TIM_struct
+CR3	source_files\std_lib\inc\stm8l10x.h	1159;"	member	struct:USART_struct
+CR3	source_files\std_lib\inc\stm8l10x.h	433;"	member	struct:EXTI_struct
+CR4	source_files\std_lib\inc\stm8l10x.h	1160;"	member	struct:USART_struct
+CR5	source_files\std_lib\inc\stm8l10x.h	1161;"	member	struct:USART_struct
+CRC_OK	source_files\drv_periph\inc\drv_cc1101_reg.h	117;"	macro
+CSR	source_files\std_lib\inc\stm8l10x.h	213;"	member	struct:AWU_struct
+CSR	source_files\std_lib\inc\stm8l10x.h	255;"	member	struct:BEEP_struct
+CSR	source_files\std_lib\inc\stm8l10x.h	373;"	member	struct:COMP_struct
+ChgBit	source_files\std_lib\inc\stm8l10x.h	1396;"	macro
+ClrBit	source_files\std_lib\inc\stm8l10x.h	1394;"	macro
+DDR	source_files\std_lib\inc\stm8l10x.h	190;"	member	struct:GPIO_struct
+DISABLE	source_files\std_lib\inc\stm8l10x.h	155;"	enumerator	enum:__anon8
+DM	source_files\std_lib\inc\stm8l10x.h	1298;"	macro
+DM_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1270;"	macro
+DR	source_files\std_lib\inc\stm8l10x.h	1154;"	member	struct:USART_struct
+DR	source_files\std_lib\inc\stm8l10x.h	551;"	member	struct:I2C_struct
+DR	source_files\std_lib\inc\stm8l10x.h	844;"	member	struct:SPI_struct
+DUKR	source_files\std_lib\inc\stm8l10x.h	494;"	member	struct:FLASH_struct
+EEPROM	source_files\std_lib\inc\stm8l10x.h	58;"	macro
+EEPROM	source_files\std_lib\inc\stm8l10x.h	64;"	macro
+EEPROM	source_files\std_lib\inc\stm8l10x.h	71;"	macro
+EGR	source_files\std_lib\inc\stm8l10x.h	1081;"	member	struct:TIM4_struct
+EGR	source_files\std_lib\inc\stm8l10x.h	909;"	member	struct:TIM_struct
+ENABLE	source_files\std_lib\inc\stm8l10x.h	155;"	enumerator	enum:__anon8
+ERROR	source_files\std_lib\inc\stm8l10x.h	158;"	enumerator	enum:__anon9
+ETR	source_files\std_lib\inc\stm8l10x.h	905;"	member	struct:TIM_struct
+EXTI	source_files\std_lib\inc\stm8l10x.h	1282;"	macro
+EXTI_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1248;"	macro
+EXTI_CONF_PBH	source_files\std_lib\inc\stm8l10x.h	476;"	macro
+EXTI_CONF_PBL	source_files\std_lib\inc\stm8l10x.h	475;"	macro
+EXTI_CONF_PDH	source_files\std_lib\inc\stm8l10x.h	478;"	macro
+EXTI_CONF_PDL	source_files\std_lib\inc\stm8l10x.h	477;"	macro
+EXTI_CONF_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	447;"	macro
+EXTI_CR1_P0IS	source_files\std_lib\inc\stm8l10x.h	462;"	macro
+EXTI_CR1_P1IS	source_files\std_lib\inc\stm8l10x.h	461;"	macro
+EXTI_CR1_P2IS	source_files\std_lib\inc\stm8l10x.h	460;"	macro
+EXTI_CR1_P3IS	source_files\std_lib\inc\stm8l10x.h	459;"	macro
+EXTI_CR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	444;"	macro
+EXTI_CR2_P4IS	source_files\std_lib\inc\stm8l10x.h	468;"	macro
+EXTI_CR2_P5IS	source_files\std_lib\inc\stm8l10x.h	467;"	macro
+EXTI_CR2_P6IS	source_files\std_lib\inc\stm8l10x.h	466;"	macro
+EXTI_CR2_P7IS	source_files\std_lib\inc\stm8l10x.h	465;"	macro
+EXTI_CR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	445;"	macro
+EXTI_CR3_PBIS	source_files\std_lib\inc\stm8l10x.h	471;"	macro
+EXTI_CR3_PDIS	source_files\std_lib\inc\stm8l10x.h	472;"	macro
+EXTI_CR3_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	446;"	macro
+EXTI_SR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	448;"	macro
+EXTI_SR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	449;"	macro
+EXTI_TypeDef	source_files\std_lib\inc\stm8l10x.h	438;"	typedef	typeref:struct:EXTI_struct
+EXTI_struct	source_files\std_lib\inc\stm8l10x.h	429;"	struct
+ErrorStatus	source_files\std_lib\inc\stm8l10x.h	158;"	typedef	typeref:enum:__anon9
+FALSE	source_files\std_lib\inc\stm8l10x.h	151;"	enumerator	enum:__anon6
+FAR	source_files\std_lib\inc\stm8l10x.h	55;"	macro
+FAR	source_files\std_lib\inc\stm8l10x.h	61;"	macro
+FAR	source_files\std_lib\inc\stm8l10x.h	68;"	macro
+FLASH	source_files\std_lib\inc\stm8l10x.h	1281;"	macro
+FLASH_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1236;"	macro
+FLASH_CR1_FIX	source_files\std_lib\inc\stm8l10x.h	517;"	macro
+FLASH_CR1_IE	source_files\std_lib\inc\stm8l10x.h	516;"	macro
+FLASH_CR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	502;"	macro
+FLASH_CR2_ERASE	source_files\std_lib\inc\stm8l10x.h	520;"	macro
+FLASH_CR2_FPRG	source_files\std_lib\inc\stm8l10x.h	521;"	macro
+FLASH_CR2_PRG	source_files\std_lib\inc\stm8l10x.h	522;"	macro
+FLASH_CR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	503;"	macro
+FLASH_CR2_WPRG	source_files\std_lib\inc\stm8l10x.h	519;"	macro
+FLASH_DUKR_DUK	source_files\std_lib\inc\stm8l10x.h	532;"	macro
+FLASH_DUKR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	505;"	macro
+FLASH_IAPSR_DUL	source_files\std_lib\inc\stm8l10x.h	525;"	macro
+FLASH_IAPSR_EOP	source_files\std_lib\inc\stm8l10x.h	526;"	macro
+FLASH_IAPSR_HVOFF	source_files\std_lib\inc\stm8l10x.h	524;"	macro
+FLASH_IAPSR_PUL	source_files\std_lib\inc\stm8l10x.h	527;"	macro
+FLASH_IAPSR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	506;"	macro
+FLASH_IAPSR_WR_PG_DIS	source_files\std_lib\inc\stm8l10x.h	528;"	macro
+FLASH_PUKR_PUK	source_files\std_lib\inc\stm8l10x.h	530;"	macro
+FLASH_PUKR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	504;"	macro
+FLASH_TypeDef	source_files\std_lib\inc\stm8l10x.h	497;"	typedef	typeref:struct:FLASH_struct
+FLASH_struct	source_files\std_lib\inc\stm8l10x.h	489;"	struct
+FREQR	source_files\std_lib\inc\stm8l10x.h	547;"	member	struct:I2C_struct
+FlagStatus	source_files\std_lib\inc\stm8l10x.h	153;"	typedef	typeref:enum:__anon7
+FunctionalState	source_files\std_lib\inc\stm8l10x.h	155;"	typedef	typeref:enum:__anon8
+GCR	source_files\std_lib\inc\stm8l10x.h	289;"	member	struct:CFG_struct
+GPIOA	source_files\std_lib\inc\stm8l10x.h	1277;"	macro
+GPIOA_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1231;"	macro
+GPIOB	source_files\std_lib\inc\stm8l10x.h	1278;"	macro
+GPIOB_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1232;"	macro
+GPIOC	source_files\std_lib\inc\stm8l10x.h	1279;"	macro
+GPIOC_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1233;"	macro
+GPIOD	source_files\std_lib\inc\stm8l10x.h	1280;"	macro
+GPIOD_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1234;"	macro
+GPIO_CR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	201;"	macro
+GPIO_CR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	202;"	macro
+GPIO_DDR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	200;"	macro
+GPIO_DeInit	source_files\std_lib\inc\stm8l10x_gpio.h	140;"	prototype	signature:(GPIO_TypeDef* GPIOx)
+GPIO_DeInit	source_files\std_lib\src\stm8l10x_gpio.c	57;"	function	signature:(GPIO_TypeDef* GPIOx)
+GPIO_ExternalPullUpConfig	source_files\std_lib\inc\stm8l10x_gpio.h	151;"	prototype	signature:(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin, FunctionalState NewState)
+GPIO_ExternalPullUpConfig	source_files\std_lib\src\stm8l10x_gpio.c	337;"	function	signature:(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin, FunctionalState NewState)
+GPIO_Init	source_files\std_lib\inc\stm8l10x_gpio.h	141;"	prototype	signature:(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin, GPIO_Mode_TypeDef GPIO_Mode)
+GPIO_Init	source_files\std_lib\src\stm8l10x_gpio.c	98;"	function	signature:(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin, GPIO_Mode_TypeDef GPIO_Mode)
+GPIO_Mode_In_FL_IT	source_files\std_lib\inc\stm8l10x_gpio.h	59;"	enumerator	enum:__anon13
+GPIO_Mode_In_FL_No_IT	source_files\std_lib\inc\stm8l10x_gpio.h	57;"	enumerator	enum:__anon13
+GPIO_Mode_In_PU_IT	source_files\std_lib\inc\stm8l10x_gpio.h	60;"	enumerator	enum:__anon13
+GPIO_Mode_In_PU_No_IT	source_files\std_lib\inc\stm8l10x_gpio.h	58;"	enumerator	enum:__anon13
+GPIO_Mode_Out_OD_HiZ_Fast	source_files\std_lib\inc\stm8l10x_gpio.h	65;"	enumerator	enum:__anon13
+GPIO_Mode_Out_OD_HiZ_Slow	source_files\std_lib\inc\stm8l10x_gpio.h	67;"	enumerator	enum:__anon13
+GPIO_Mode_Out_OD_Low_Fast	source_files\std_lib\inc\stm8l10x_gpio.h	61;"	enumerator	enum:__anon13
+GPIO_Mode_Out_OD_Low_Slow	source_files\std_lib\inc\stm8l10x_gpio.h	63;"	enumerator	enum:__anon13
+GPIO_Mode_Out_PP_High_Fast	source_files\std_lib\inc\stm8l10x_gpio.h	66;"	enumerator	enum:__anon13
+GPIO_Mode_Out_PP_High_Slow	source_files\std_lib\inc\stm8l10x_gpio.h	68;"	enumerator	enum:__anon13
+GPIO_Mode_Out_PP_Low_Fast	source_files\std_lib\inc\stm8l10x_gpio.h	62;"	enumerator	enum:__anon13
+GPIO_Mode_Out_PP_Low_Slow	source_files\std_lib\inc\stm8l10x_gpio.h	64;"	enumerator	enum:__anon13
+GPIO_Mode_TypeDef	source_files\std_lib\inc\stm8l10x_gpio.h	69;"	typedef	typeref:enum:__anon13
+GPIO_ODR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	199;"	macro
+GPIO_Pin_0	source_files\std_lib\inc\stm8l10x_gpio.h	78;"	enumerator	enum:__anon14
+GPIO_Pin_1	source_files\std_lib\inc\stm8l10x_gpio.h	79;"	enumerator	enum:__anon14
+GPIO_Pin_2	source_files\std_lib\inc\stm8l10x_gpio.h	80;"	enumerator	enum:__anon14
+GPIO_Pin_3	source_files\std_lib\inc\stm8l10x_gpio.h	81;"	enumerator	enum:__anon14
+GPIO_Pin_4	source_files\std_lib\inc\stm8l10x_gpio.h	82;"	enumerator	enum:__anon14
+GPIO_Pin_5	source_files\std_lib\inc\stm8l10x_gpio.h	83;"	enumerator	enum:__anon14
+GPIO_Pin_6	source_files\std_lib\inc\stm8l10x_gpio.h	84;"	enumerator	enum:__anon14
+GPIO_Pin_7	source_files\std_lib\inc\stm8l10x_gpio.h	85;"	enumerator	enum:__anon14
+GPIO_Pin_All	source_files\std_lib\inc\stm8l10x_gpio.h	88;"	enumerator	enum:__anon14
+GPIO_Pin_HNib	source_files\std_lib\inc\stm8l10x_gpio.h	87;"	enumerator	enum:__anon14
+GPIO_Pin_LNib	source_files\std_lib\inc\stm8l10x_gpio.h	86;"	enumerator	enum:__anon14
+GPIO_Pin_TypeDef	source_files\std_lib\inc\stm8l10x_gpio.h	89;"	typedef	typeref:enum:__anon14
+GPIO_ReadInputData	source_files\std_lib\inc\stm8l10x_gpio.h	147;"	prototype	signature:(GPIO_TypeDef* GPIOx)
+GPIO_ReadInputData	source_files\std_lib\src\stm8l10x_gpio.c	262;"	function	signature:(GPIO_TypeDef* GPIOx)
+GPIO_ReadInputDataBit	source_files\std_lib\inc\stm8l10x_gpio.h	149;"	prototype	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin)
+GPIO_ReadInputDataBit	source_files\std_lib\src\stm8l10x_gpio.c	294;"	function	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin)
+GPIO_ReadOutputData	source_files\std_lib\inc\stm8l10x_gpio.h	148;"	prototype	signature:(GPIO_TypeDef* GPIOx)
+GPIO_ReadOutputData	source_files\std_lib\src\stm8l10x_gpio.c	273;"	function	signature:(GPIO_TypeDef* GPIOx)
+GPIO_ReadOutputDataBit	source_files\std_lib\inc\stm8l10x_gpio.h	150;"	prototype	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin)
+GPIO_ReadOutputDataBit	source_files\std_lib\src\stm8l10x_gpio.c	315;"	function	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin)
+GPIO_ResetBits	source_files\std_lib\inc\stm8l10x_gpio.h	145;"	prototype	signature:(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin)
+GPIO_ResetBits	source_files\std_lib\src\stm8l10x_gpio.c	239;"	function	signature:(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin)
+GPIO_SetBits	source_files\std_lib\inc\stm8l10x_gpio.h	144;"	prototype	signature:(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin)
+GPIO_SetBits	source_files\std_lib\src\stm8l10x_gpio.c	218;"	function	signature:(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin)
+GPIO_ToggleBits	source_files\std_lib\inc\stm8l10x_gpio.h	146;"	prototype	signature:(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin)
+GPIO_ToggleBits	source_files\std_lib\src\stm8l10x_gpio.c	251;"	function	signature:(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin)
+GPIO_TypeDef	source_files\std_lib\inc\stm8l10x.h	194;"	typedef	typeref:struct:GPIO_struct
+GPIO_Write	source_files\std_lib\inc\stm8l10x_gpio.h	142;"	prototype	signature:(GPIO_TypeDef* GPIOx, uint8_t GPIO_PortVal)
+GPIO_Write	source_files\std_lib\src\stm8l10x_gpio.c	163;"	function	signature:(GPIO_TypeDef* GPIOx, uint8_t GPIO_PortVal)
+GPIO_WriteBit	source_files\std_lib\inc\stm8l10x_gpio.h	143;"	prototype	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin, BitAction GPIO_BitVal)
+GPIO_WriteBit	source_files\std_lib\src\stm8l10x_gpio.c	185;"	function	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin, BitAction GPIO_BitVal)
+GPIO_struct	source_files\std_lib\inc\stm8l10x.h	186;"	struct
+GTR	source_files\std_lib\inc\stm8l10x.h	1162;"	member	struct:USART_struct
+HSIDivFactor	source_files\std_lib\src\stm8l10x_clk.c	52;"	variable
+HSI_VALUE	source_files\std_lib\inc\stm8l10x_clk.h	86;"	macro
+I2C	source_files\std_lib\inc\stm8l10x.h	1290;"	macro
+I2C_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1264;"	macro
+I2C_CCRH_CCR	source_files\std_lib\inc\stm8l10x.h	635;"	macro
+I2C_CCRH_DUTY	source_files\std_lib\inc\stm8l10x.h	634;"	macro
+I2C_CCRH_FS	source_files\std_lib\inc\stm8l10x.h	633;"	macro
+I2C_CCRH_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	576;"	macro
+I2C_CCRL_CCR	source_files\std_lib\inc\stm8l10x.h	631;"	macro
+I2C_CCRL_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	575;"	macro
+I2C_CR1_ENGC	source_files\std_lib\inc\stm8l10x.h	588;"	macro
+I2C_CR1_NOSTRETCH	source_files\std_lib\inc\stm8l10x.h	587;"	macro
+I2C_CR1_PE	source_files\std_lib\inc\stm8l10x.h	589;"	macro
+I2C_CR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	565;"	macro
+I2C_CR2_ACK	source_files\std_lib\inc\stm8l10x.h	593;"	macro
+I2C_CR2_POS	source_files\std_lib\inc\stm8l10x.h	592;"	macro
+I2C_CR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	566;"	macro
+I2C_CR2_START	source_files\std_lib\inc\stm8l10x.h	595;"	macro
+I2C_CR2_STOP	source_files\std_lib\inc\stm8l10x.h	594;"	macro
+I2C_CR2_SWRST	source_files\std_lib\inc\stm8l10x.h	591;"	macro
+I2C_DR_DR	source_files\std_lib\inc\stm8l10x.h	606;"	macro
+I2C_DR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	570;"	macro
+I2C_FREQR_FREQ	source_files\std_lib\inc\stm8l10x.h	597;"	macro
+I2C_FREQR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	567;"	macro
+I2C_ITR_ITBUFEN	source_files\std_lib\inc\stm8l10x.h	627;"	macro
+I2C_ITR_ITERREN	source_files\std_lib\inc\stm8l10x.h	629;"	macro
+I2C_ITR_ITEVTEN	source_files\std_lib\inc\stm8l10x.h	628;"	macro
+I2C_ITR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	574;"	macro
+I2C_OARH_ADD	source_files\std_lib\inc\stm8l10x.h	604;"	macro
+I2C_OARH_ADDCONF	source_files\std_lib\inc\stm8l10x.h	603;"	macro
+I2C_OARH_ADDMODE	source_files\std_lib\inc\stm8l10x.h	602;"	macro
+I2C_OARH_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	569;"	macro
+I2C_OARL_ADD	source_files\std_lib\inc\stm8l10x.h	599;"	macro
+I2C_OARL_ADD0	source_files\std_lib\inc\stm8l10x.h	600;"	macro
+I2C_OARL_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	568;"	macro
+I2C_SR1_ADD10	source_files\std_lib\inc\stm8l10x.h	611;"	macro
+I2C_SR1_ADDR	source_files\std_lib\inc\stm8l10x.h	613;"	macro
+I2C_SR1_BTF	source_files\std_lib\inc\stm8l10x.h	612;"	macro
+I2C_SR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	571;"	macro
+I2C_SR1_RXNE	source_files\std_lib\inc\stm8l10x.h	609;"	macro
+I2C_SR1_SB	source_files\std_lib\inc\stm8l10x.h	614;"	macro
+I2C_SR1_STOPF	source_files\std_lib\inc\stm8l10x.h	610;"	macro
+I2C_SR1_TXE	source_files\std_lib\inc\stm8l10x.h	608;"	macro
+I2C_SR2_AF	source_files\std_lib\inc\stm8l10x.h	618;"	macro
+I2C_SR2_ARLO	source_files\std_lib\inc\stm8l10x.h	619;"	macro
+I2C_SR2_BERR	source_files\std_lib\inc\stm8l10x.h	620;"	macro
+I2C_SR2_OVR	source_files\std_lib\inc\stm8l10x.h	617;"	macro
+I2C_SR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	572;"	macro
+I2C_SR2_WUFH	source_files\std_lib\inc\stm8l10x.h	616;"	macro
+I2C_SR3_BUSY	source_files\std_lib\inc\stm8l10x.h	624;"	macro
+I2C_SR3_GENCALL	source_files\std_lib\inc\stm8l10x.h	622;"	macro
+I2C_SR3_MSL	source_files\std_lib\inc\stm8l10x.h	625;"	macro
+I2C_SR3_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	573;"	macro
+I2C_SR3_TRA	source_files\std_lib\inc\stm8l10x.h	623;"	macro
+I2C_TRISER_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	577;"	macro
+I2C_TRISER_TRISE	source_files\std_lib\inc\stm8l10x.h	637;"	macro
+I2C_TypeDef	source_files\std_lib\inc\stm8l10x.h	560;"	typedef	typeref:struct:I2C_struct
+I2C_struct	source_files\std_lib\inc\stm8l10x.h	543;"	struct
+IAPSR	source_files\std_lib\inc\stm8l10x.h	495;"	member	struct:FLASH_struct
+ICR	source_files\std_lib\inc\stm8l10x.h	842;"	member	struct:SPI_struct
+IDR	source_files\std_lib\inc\stm8l10x.h	189;"	member	struct:GPIO_struct
+IER	source_files\std_lib\inc\stm8l10x.h	1079;"	member	struct:TIM4_struct
+IER	source_files\std_lib\inc\stm8l10x.h	906;"	member	struct:TIM_struct
+INTERRUPT	source_files\std_lib\inc\stm8l10x.h	1371;"	macro
+INTERRUPT	source_files\std_lib\inc\stm8l10x.h	1375;"	macro
+INTERRUPT_HANDLER	source_files\std_lib\inc\stm8l10x.h	1348;"	macro
+INTERRUPT_HANDLER	source_files\std_lib\inc\stm8l10x.h	1353;"	macro
+INTERRUPT_HANDLER	source_files\std_lib\inc\stm8l10x.h	1360;"	macro
+INTERRUPT_HANDLER_TRAP	source_files\std_lib\inc\stm8l10x.h	1349;"	macro
+INTERRUPT_HANDLER_TRAP	source_files\std_lib\inc\stm8l10x.h	1354;"	macro
+INTERRUPT_HANDLER_TRAP	source_files\std_lib\inc\stm8l10x.h	1363;"	macro
+IN_RAM	source_files\std_lib\inc\stm8l10x.h	90;"	macro
+IN_RAM	source_files\std_lib\inc\stm8l10x.h	92;"	macro
+IN_RAM	source_files\std_lib\inc\stm8l10x.h	94;"	macro
+IN_RAM	source_files\std_lib\inc\stm8l10x.h	97;"	macro
+IRTIM	source_files\std_lib\inc\stm8l10x.h	1295;"	macro
+IRTIM_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1244;"	macro
+IRTIM_CR_EN	source_files\std_lib\inc\stm8l10x.h	667;"	macro
+IRTIM_CR_HSEN	source_files\std_lib\inc\stm8l10x.h	668;"	macro
+IRTIM_CR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	656;"	macro
+IRTIM_TypeDef	source_files\std_lib\inc\stm8l10x.h	652;"	typedef	typeref:struct:IRTIM_struct
+IRTIM_struct	source_files\std_lib\inc\stm8l10x.h	648;"	struct
+ISPR1	source_files\std_lib\inc\stm8l10x.h	681;"	member	struct:ITC_struct
+ISPR2	source_files\std_lib\inc\stm8l10x.h	682;"	member	struct:ITC_struct
+ISPR3	source_files\std_lib\inc\stm8l10x.h	683;"	member	struct:ITC_struct
+ISPR4	source_files\std_lib\inc\stm8l10x.h	684;"	member	struct:ITC_struct
+ISPR5	source_files\std_lib\inc\stm8l10x.h	685;"	member	struct:ITC_struct
+ISPR6	source_files\std_lib\inc\stm8l10x.h	686;"	member	struct:ITC_struct
+ISPR7	source_files\std_lib\inc\stm8l10x.h	687;"	member	struct:ITC_struct
+ISPR8	source_files\std_lib\inc\stm8l10x.h	688;"	member	struct:ITC_struct
+IS_CLK_MASTER_PRESCALER	source_files\std_lib\inc\stm8l10x_clk.h	121;"	macro
+IS_CLK_OUTPUT	source_files\std_lib\inc\stm8l10x_clk.h	107;"	macro
+IS_CLK_PERIPHERAL	source_files\std_lib\inc\stm8l10x_clk.h	116;"	macro
+IS_FUNCTIONAL_STATE	source_files\std_lib\inc\stm8l10x.h	156;"	macro
+IS_GPIO_MODE	source_files\std_lib\inc\stm8l10x_gpio.h	111;"	macro
+IS_GPIO_PIN	source_files\std_lib\inc\stm8l10x_gpio.h	129;"	macro
+IS_SPI_BAUDRATE_PRESCALER	source_files\std_lib\inc\stm8l10x_spi.h	194;"	macro
+IS_SPI_CONFIG_IT	source_files\std_lib\inc\stm8l10x_spi.h	234;"	macro
+IS_SPI_CPHA	source_files\std_lib\inc\stm8l10x_spi.h	212;"	macro
+IS_SPI_CPOL	source_files\std_lib\inc\stm8l10x_spi.h	206;"	macro
+IS_SPI_DIRECTION	source_files\std_lib\inc\stm8l10x_spi.h	176;"	macro
+IS_SPI_DIRECTION_MODE	source_files\std_lib\inc\stm8l10x_spi.h	168;"	macro
+IS_SPI_FIRST_BIT	source_files\std_lib\inc\stm8l10x_spi.h	218;"	macro
+IS_SPI_FLAG	source_files\std_lib\inc\stm8l10x_spi.h	224;"	macro
+IS_SPI_GET_IT	source_files\std_lib\inc\stm8l10x_spi.h	241;"	macro
+IS_SPI_MODE	source_files\std_lib\inc\stm8l10x_spi.h	182;"	macro
+IS_SPI_NSS	source_files\std_lib\inc\stm8l10x_spi.h	188;"	macro
+IS_STATE_VALUE	source_files\std_lib\inc\stm8l10x.h	1410;"	macro
+IS_USART_ADDRESS	source_files\std_lib\inc\stm8l10x_usart.h	278;"	macro
+IS_USART_BAUDRATE	source_files\std_lib\inc\stm8l10x_usart.h	271;"	macro
+IS_USART_CLOCK	source_files\std_lib\inc\stm8l10x_usart.h	226;"	macro
+IS_USART_CONFIG_IT	source_files\std_lib\inc\stm8l10x_usart.h	191;"	macro
+IS_USART_CPHA	source_files\std_lib\inc\stm8l10x_usart.h	238;"	macro
+IS_USART_CPOL	source_files\std_lib\inc\stm8l10x_usart.h	232;"	macro
+IS_USART_DATA_9BITS	source_files\std_lib\inc\stm8l10x_usart.h	286;"	macro
+IS_USART_FLAG	source_files\std_lib\inc\stm8l10x_usart.h	176;"	macro
+IS_USART_GET_IT	source_files\std_lib\inc\stm8l10x_usart.h	202;"	macro
+IS_USART_LASTBIT	source_files\std_lib\inc\stm8l10x_usart.h	244;"	macro
+IS_USART_MODE	source_files\std_lib\inc\stm8l10x_usart.h	213;"	macro
+IS_USART_PARITY	source_files\std_lib\inc\stm8l10x_usart.h	266;"	macro
+IS_USART_STOPBITS	source_files\std_lib\inc\stm8l10x_usart.h	259;"	macro
+IS_USART_WAKEUP	source_files\std_lib\inc\stm8l10x_usart.h	251;"	macro
+IS_USART_WordLength	source_files\std_lib\inc\stm8l10x_usart.h	219;"	macro
+ITC	source_files\std_lib\inc\stm8l10x.h	1296;"	macro
+ITC_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1268;"	macro
+ITC_SPR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	695;"	macro
+ITC_SPR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	696;"	macro
+ITC_SPR3_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	697;"	macro
+ITC_SPR4_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	698;"	macro
+ITC_SPR5_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	699;"	macro
+ITC_SPR6_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	700;"	macro
+ITC_SPR7_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	701;"	macro
+ITC_SPR8_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	702;"	macro
+ITC_TypeDef	source_files\std_lib\inc\stm8l10x.h	690;"	typedef	typeref:struct:ITC_struct
+ITC_struct	source_files\std_lib\inc\stm8l10x.h	679;"	struct
+ITR	source_files\std_lib\inc\stm8l10x.h	555;"	member	struct:I2C_struct
+ITStatus	source_files\std_lib\inc\stm8l10x.h	153;"	typedef	typeref:enum:__anon7
+IWDG	source_files\std_lib\inc\stm8l10x.h	1285;"	macro
+IWDG_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1256;"	macro
+IWDG_PR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	724;"	macro
+IWDG_RLR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	723;"	macro
+IWDG_TypeDef	source_files\std_lib\inc\stm8l10x.h	718;"	typedef	typeref:struct:IWDG_struct
+IWDG_struct	source_files\std_lib\inc\stm8l10x.h	712;"	struct
+KR	source_files\std_lib\inc\stm8l10x.h	714;"	member	struct:IWDG_struct
+LED_GREEN	source_files\drv_mcu\inc\drv_led.h	36;"	enumerator	enum:LedPort
+LED_GREEN_GPIO_PIN	source_files\drv_mcu\inc\drv_led.h	29;"	macro
+LED_GREEN_GPIO_PORT	source_files\drv_mcu\inc\drv_led.h	28;"	macro
+LED_RED	source_files\drv_mcu\inc\drv_led.h	35;"	enumerator	enum:LedPort
+LED_RED_GPIO_PIN	source_files\drv_mcu\inc\drv_led.h	26;"	macro
+LED_RED_GPIO_PORT	source_files\drv_mcu\inc\drv_led.h	25;"	macro
+LSI_VALUE	source_files\std_lib\inc\stm8l10x_clk.h	87;"	macro
+LedPort	source_files\drv_mcu\inc\drv_led.h	33;"	enum
+LedPortType	source_files\drv_mcu\inc\drv_led.h	37;"	typedef	typeref:enum:LedPort
+MEMCPY	source_files\std_lib\inc\stm8l10x.h	66;"	macro
+MskBit	source_files\std_lib\inc\stm8l10x.h	1400;"	macro
+NEAR	source_files\std_lib\inc\stm8l10x.h	56;"	macro
+NEAR	source_files\std_lib\inc\stm8l10x.h	62;"	macro
+NEAR	source_files\std_lib\inc\stm8l10x.h	69;"	macro
+NonHandledInterrupt	stm8_interrupt_vector.c	12;"	function	signature:(void)
+OARH	source_files\std_lib\inc\stm8l10x.h	549;"	member	struct:I2C_struct
+OARL	source_files\std_lib\inc\stm8l10x.h	548;"	member	struct:I2C_struct
+ODR	source_files\std_lib\inc\stm8l10x.h	188;"	member	struct:GPIO_struct
+OISR	source_files\std_lib\inc\stm8l10x.h	923;"	member	struct:TIM_struct
+OPT	source_files\std_lib\inc\stm8l10x.h	1300;"	macro
+OPT0_LOCKBYTE	source_files\std_lib\inc\stm8l10x.h	784;"	member	struct:OPT_struct
+OPT1_PCODESIZE	source_files\std_lib\inc\stm8l10x.h	785;"	member	struct:OPT_struct
+OPT2_BOOTSIZE	source_files\std_lib\inc\stm8l10x.h	786;"	member	struct:OPT_struct
+OPT3_DATASIZE	source_files\std_lib\inc\stm8l10x.h	787;"	member	struct:OPT_struct
+OPT_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1266;"	macro
+OPT_TypeDef	source_files\std_lib\inc\stm8l10x.h	789;"	typedef	typeref:struct:OPT_struct
+OPT_struct	source_files\std_lib\inc\stm8l10x.h	782;"	struct
+PA_TABLE	source_files\drv_periph\inc\drv_cc1101.h	26;"	macro
+PCKENR	source_files\std_lib\inc\stm8l10x.h	328;"	member	struct:CLK_struct
+PR	source_files\std_lib\inc\stm8l10x.h	715;"	member	struct:IWDG_struct
+PSCR	source_files\std_lib\inc\stm8l10x.h	1083;"	member	struct:TIM4_struct
+PSCR	source_files\std_lib\inc\stm8l10x.h	1163;"	member	struct:USART_struct
+PSCR	source_files\std_lib\inc\stm8l10x.h	915;"	member	struct:TIM_struct
+PUKR	source_files\std_lib\inc\stm8l10x.h	493;"	member	struct:FLASH_struct
+PaTabel	source_files\drv_periph\src\drv_cc1101.c	22;"	variable
+PointerAttr	source_files\std_lib\inc\stm8l10x.h	81;"	macro
+READ_BURST	source_files\drv_periph\inc\drv_cc1101_reg.h	115;"	macro
+READ_SINGLE	source_files\drv_periph\inc\drv_cc1101_reg.h	114;"	macro
+RESERVED	source_files\std_lib\inc\stm8l10x.h	550;"	member	struct:I2C_struct
+RESERVED1	source_files\std_lib\inc\stm8l10x.h	326;"	member	struct:CLK_struct
+RESERVED2	source_files\std_lib\inc\stm8l10x.h	327;"	member	struct:CLK_struct
+RESERVED3	source_files\std_lib\inc\stm8l10x.h	329;"	member	struct:CLK_struct
+RESET	source_files\std_lib\inc\stm8l10x.h	153;"	enumerator	enum:__anon7
+RLR	source_files\std_lib\inc\stm8l10x.h	716;"	member	struct:IWDG_struct
+RST	source_files\std_lib\inc\stm8l10x.h	1283;"	macro
+RST_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1252;"	macro
+RST_CR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	815;"	macro
+RST_SR_ILLOPF	source_files\std_lib\inc\stm8l10x.h	826;"	macro
+RST_SR_IWDGF	source_files\std_lib\inc\stm8l10x.h	827;"	macro
+RST_SR_PORF	source_files\std_lib\inc\stm8l10x.h	828;"	macro
+RST_SR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	816;"	macro
+RST_SR_SWIMF	source_files\std_lib\inc\stm8l10x.h	825;"	macro
+RST_TypeDef	source_files\std_lib\inc\stm8l10x.h	806;"	typedef	typeref:struct:RST_struct
+RST_struct	source_files\std_lib\inc\stm8l10x.h	800;"	struct
+RX_MODE	source_files\drv_periph\inc\drv_cc1101.h	51;"	enumerator	enum:__anon3
+S16_MAX	source_files\std_lib\inc\stm8l10x.h	164;"	macro
+S16_MIN	source_files\std_lib\inc\stm8l10x.h	165;"	macro
+S32_MAX	source_files\std_lib\inc\stm8l10x.h	167;"	macro
+S32_MIN	source_files\std_lib\inc\stm8l10x.h	168;"	macro
+S8_MAX	source_files\std_lib\inc\stm8l10x.h	161;"	macro
+S8_MIN	source_files\std_lib\inc\stm8l10x.h	162;"	macro
+SET	source_files\std_lib\inc\stm8l10x.h	153;"	enumerator	enum:__anon7
+SMCR	source_files\std_lib\inc\stm8l10x.h	1078;"	member	struct:TIM4_struct
+SMCR	source_files\std_lib\inc\stm8l10x.h	904;"	member	struct:TIM_struct
+SPI	source_files\std_lib\inc\stm8l10x.h	1289;"	macro
+SPI_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1262;"	macro
+SPI_BaudRatePrescaler_128	source_files\std_lib\inc\stm8l10x_spi.h	93;"	enumerator	enum:__anon19
+SPI_BaudRatePrescaler_16	source_files\std_lib\inc\stm8l10x_spi.h	90;"	enumerator	enum:__anon19
+SPI_BaudRatePrescaler_2	source_files\std_lib\inc\stm8l10x_spi.h	87;"	enumerator	enum:__anon19
+SPI_BaudRatePrescaler_256	source_files\std_lib\inc\stm8l10x_spi.h	94;"	enumerator	enum:__anon19
+SPI_BaudRatePrescaler_32	source_files\std_lib\inc\stm8l10x_spi.h	91;"	enumerator	enum:__anon19
+SPI_BaudRatePrescaler_4	source_files\std_lib\inc\stm8l10x_spi.h	88;"	enumerator	enum:__anon19
+SPI_BaudRatePrescaler_64	source_files\std_lib\inc\stm8l10x_spi.h	92;"	enumerator	enum:__anon19
+SPI_BaudRatePrescaler_8	source_files\std_lib\inc\stm8l10x_spi.h	89;"	enumerator	enum:__anon19
+SPI_BaudRatePrescaler_TypeDef	source_files\std_lib\inc\stm8l10x_spi.h	95;"	typedef	typeref:enum:__anon19
+SPI_BiDirectionalLineConfig	source_files\std_lib\inc\stm8l10x_spi.h	264;"	prototype	signature:(SPI_Direction_TypeDef SPI_Direction)
+SPI_BiDirectionalLineConfig	source_files\std_lib\src\stm8l10x_spi.c	246;"	function	signature:(SPI_Direction_TypeDef SPI_Direction)
+SPI_CLK_GPIO_PIN	source_files\drv_mcu\inc\drv_spi.h	31;"	macro
+SPI_CLK_GPIO_PORT	source_files\drv_mcu\inc\drv_spi.h	30;"	macro
+SPI_CPHA_1Edge	source_files\std_lib\inc\stm8l10x_spi.h	111;"	enumerator	enum:__anon21
+SPI_CPHA_2Edge	source_files\std_lib\inc\stm8l10x_spi.h	112;"	enumerator	enum:__anon21
+SPI_CPHA_TypeDef	source_files\std_lib\inc\stm8l10x_spi.h	113;"	typedef	typeref:enum:__anon21
+SPI_CPOL_High	source_files\std_lib\inc\stm8l10x_spi.h	103;"	enumerator	enum:__anon20
+SPI_CPOL_Low	source_files\std_lib\inc\stm8l10x_spi.h	102;"	enumerator	enum:__anon20
+SPI_CPOL_TypeDef	source_files\std_lib\inc\stm8l10x_spi.h	104;"	typedef	typeref:enum:__anon20
+SPI_CR1_BR	source_files\std_lib\inc\stm8l10x.h	868;"	macro
+SPI_CR1_CPHA	source_files\std_lib\inc\stm8l10x.h	871;"	macro
+SPI_CR1_CPOL	source_files\std_lib\inc\stm8l10x.h	870;"	macro
+SPI_CR1_LSBFIRST	source_files\std_lib\inc\stm8l10x.h	866;"	macro
+SPI_CR1_MSTR	source_files\std_lib\inc\stm8l10x.h	869;"	macro
+SPI_CR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	852;"	macro
+SPI_CR1_SPE	source_files\std_lib\inc\stm8l10x.h	867;"	macro
+SPI_CR2_BDM	source_files\std_lib\inc\stm8l10x.h	873;"	macro
+SPI_CR2_BDOE	source_files\std_lib\inc\stm8l10x.h	874;"	macro
+SPI_CR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	853;"	macro
+SPI_CR2_RXONLY	source_files\std_lib\inc\stm8l10x.h	875;"	macro
+SPI_CR2_SSI	source_files\std_lib\inc\stm8l10x.h	877;"	macro
+SPI_CR2_SSM	source_files\std_lib\inc\stm8l10x.h	876;"	macro
+SPI_ClearFlag	source_files\std_lib\inc\stm8l10x_spi.h	269;"	prototype	signature:(void)
+SPI_ClearFlag	source_files\std_lib\src\stm8l10x_spi.c	306;"	function	signature:(void)
+SPI_ClearITPendingBit	source_files\std_lib\inc\stm8l10x_spi.h	270;"	prototype	signature:(void)
+SPI_ClearITPendingBit	source_files\std_lib\src\stm8l10x_spi.c	367;"	function	signature:(void)
+SPI_Cmd	source_files\std_lib\inc\stm8l10x_spi.h	261;"	prototype	signature:(FunctionalState NewState)
+SPI_Cmd	source_files\std_lib\src\stm8l10x_spi.c	145;"	function	signature:(FunctionalState NewState)
+SPI_DR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	856;"	macro
+SPI_DeInit	source_files\std_lib\inc\stm8l10x_spi.h	256;"	prototype	signature:(void)
+SPI_DeInit	source_files\std_lib\src\stm8l10x_spi.c	55;"	function	signature:(void)
+SPI_DirectionMode_TypeDef	source_files\std_lib\inc\stm8l10x_spi.h	52;"	typedef	typeref:enum:__anon15
+SPI_Direction_1Line_Rx	source_files\std_lib\inc\stm8l10x_spi.h	50;"	enumerator	enum:__anon15
+SPI_Direction_1Line_Tx	source_files\std_lib\inc\stm8l10x_spi.h	51;"	enumerator	enum:__anon15
+SPI_Direction_2Lines_FullDuplex	source_files\std_lib\inc\stm8l10x_spi.h	48;"	enumerator	enum:__anon15
+SPI_Direction_2Lines_RxOnly	source_files\std_lib\inc\stm8l10x_spi.h	49;"	enumerator	enum:__anon15
+SPI_Direction_Rx	source_files\std_lib\inc\stm8l10x_spi.h	59;"	enumerator	enum:__anon16
+SPI_Direction_Tx	source_files\std_lib\inc\stm8l10x_spi.h	60;"	enumerator	enum:__anon16
+SPI_Direction_TypeDef	source_files\std_lib\inc\stm8l10x_spi.h	61;"	typedef	typeref:enum:__anon16
+SPI_FLAG_BSY	source_files\std_lib\inc\stm8l10x_spi.h	128;"	enumerator	enum:__anon23
+SPI_FLAG_MODF	source_files\std_lib\inc\stm8l10x_spi.h	130;"	enumerator	enum:__anon23
+SPI_FLAG_OVR	source_files\std_lib\inc\stm8l10x_spi.h	129;"	enumerator	enum:__anon23
+SPI_FLAG_RXNE	source_files\std_lib\inc\stm8l10x_spi.h	133;"	enumerator	enum:__anon23
+SPI_FLAG_TXE	source_files\std_lib\inc\stm8l10x_spi.h	132;"	enumerator	enum:__anon23
+SPI_FLAG_TypeDef	source_files\std_lib\inc\stm8l10x_spi.h	134;"	typedef	typeref:enum:__anon23
+SPI_FLAG_WKUP	source_files\std_lib\inc\stm8l10x_spi.h	131;"	enumerator	enum:__anon23
+SPI_FirstBit_LSB	source_files\std_lib\inc\stm8l10x_spi.h	121;"	enumerator	enum:__anon22
+SPI_FirstBit_MSB	source_files\std_lib\inc\stm8l10x_spi.h	120;"	enumerator	enum:__anon22
+SPI_FirstBit_TypeDef	source_files\std_lib\inc\stm8l10x_spi.h	122;"	typedef	typeref:enum:__anon22
+SPI_GetFlagStatus	source_files\std_lib\inc\stm8l10x_spi.h	267;"	prototype	signature:(SPI_FLAG_TypeDef SPI_FLAG)
+SPI_GetFlagStatus	source_files\std_lib\src\stm8l10x_spi.c	275;"	function	signature:(SPI_FLAG_TypeDef SPI_FLAG)
+SPI_GetITStatus	source_files\std_lib\inc\stm8l10x_spi.h	268;"	prototype	signature:(SPI_IT_TypeDef SPI_IT)
+SPI_GetITStatus	source_files\std_lib\src\stm8l10x_spi.c	323;"	function	signature:(SPI_IT_TypeDef SPI_IT)
+SPI_ICR_ERRIE	source_files\std_lib\inc\stm8l10x.h	881;"	macro
+SPI_ICR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	854;"	macro
+SPI_ICR_RXIE	source_files\std_lib\inc\stm8l10x.h	880;"	macro
+SPI_ICR_TXIE	source_files\std_lib\inc\stm8l10x.h	879;"	macro
+SPI_ICR_WKIE	source_files\std_lib\inc\stm8l10x.h	882;"	macro
+SPI_ITConfig	source_files\std_lib\inc\stm8l10x_spi.h	262;"	prototype	signature:(SPI_IT_TypeDef SPI_IT, FunctionalState NewState)
+SPI_ITConfig	source_files\std_lib\src\stm8l10x_spi.c	174;"	function	signature:(SPI_IT_TypeDef SPI_IT, FunctionalState NewState)
+SPI_IT_ERR	source_files\std_lib\inc\stm8l10x_spi.h	149;"	enumerator	enum:__anon24
+SPI_IT_MODF	source_files\std_lib\inc\stm8l10x_spi.h	146;"	enumerator	enum:__anon24
+SPI_IT_OVR	source_files\std_lib\inc\stm8l10x_spi.h	145;"	enumerator	enum:__anon24
+SPI_IT_RXNE	source_files\std_lib\inc\stm8l10x_spi.h	148;"	enumerator	enum:__anon24
+SPI_IT_TXE	source_files\std_lib\inc\stm8l10x_spi.h	147;"	enumerator	enum:__anon24
+SPI_IT_TypeDef	source_files\std_lib\inc\stm8l10x_spi.h	150;"	typedef	typeref:enum:__anon24
+SPI_IT_WKUP	source_files\std_lib\inc\stm8l10x_spi.h	144;"	enumerator	enum:__anon24
+SPI_Init	source_files\std_lib\inc\stm8l10x_spi.h	257;"	prototype	signature:(SPI_FirstBit_TypeDef SPI_FirstBit, SPI_BaudRatePrescaler_TypeDef SPI_BaudRatePrescaler, SPI_Mode_TypeDef SPI_Mode, SPI_CPOL_TypeDef SPI_CPOL, SPI_CPHA_TypeDef SPI_CPHA, SPI_DirectionMode_TypeDef SPI_DirectionMode, SPI_NSS_TypeDef SPI_NSS)
+SPI_Init	source_files\std_lib\src\stm8l10x_spi.c	103;"	function	signature:(SPI_FirstBit_TypeDef SPI_FirstBit, SPI_BaudRatePrescaler_TypeDef SPI_BaudRatePrescaler, SPI_Mode_TypeDef SPI_Mode, SPI_CPOL_TypeDef SPI_CPOL, SPI_CPHA_TypeDef SPI_CPHA, SPI_DirectionMode_TypeDef SPI_DirectionMode, SPI_NSS_TypeDef SPI_NSS)
+SPI_MISO_GPIO_PIN	source_files\drv_mcu\inc\drv_spi.h	34;"	macro
+SPI_MISO_GPIO_PORT	source_files\drv_mcu\inc\drv_spi.h	33;"	macro
+SPI_MOSI_GPIO_PIN	source_files\drv_mcu\inc\drv_spi.h	37;"	macro
+SPI_MOSI_GPIO_PORT	source_files\drv_mcu\inc\drv_spi.h	36;"	macro
+SPI_Mode_Master	source_files\std_lib\inc\stm8l10x_spi.h	68;"	enumerator	enum:__anon17
+SPI_Mode_Slave	source_files\std_lib\inc\stm8l10x_spi.h	69;"	enumerator	enum:__anon17
+SPI_Mode_TypeDef	source_files\std_lib\inc\stm8l10x_spi.h	70;"	typedef	typeref:enum:__anon17
+SPI_NSSInternalSoftwareCmd	source_files\std_lib\inc\stm8l10x_spi.h	263;"	prototype	signature:(FunctionalState NewState)
+SPI_NSSInternalSoftwareCmd	source_files\std_lib\src\stm8l10x_spi.c	221;"	function	signature:(FunctionalState NewState)
+SPI_NSS_GPIO_PIN	source_files\drv_mcu\inc\drv_spi.h	40;"	macro
+SPI_NSS_GPIO_PORT	source_files\drv_mcu\inc\drv_spi.h	39;"	macro
+SPI_NSS_Hard	source_files\std_lib\inc\stm8l10x_spi.h	79;"	enumerator	enum:__anon18
+SPI_NSS_Soft	source_files\std_lib\inc\stm8l10x_spi.h	78;"	enumerator	enum:__anon18
+SPI_NSS_TypeDef	source_files\std_lib\inc\stm8l10x_spi.h	80;"	typedef	typeref:enum:__anon18
+SPI_ReceiveData	source_files\std_lib\inc\stm8l10x_spi.h	266;"	prototype	signature:(void)
+SPI_ReceiveData	source_files\std_lib\src\stm8l10x_spi.c	209;"	function	signature:(void)
+SPI_SR_BSY	source_files\std_lib\inc\stm8l10x.h	884;"	macro
+SPI_SR_MODF	source_files\std_lib\inc\stm8l10x.h	886;"	macro
+SPI_SR_OVR	source_files\std_lib\inc\stm8l10x.h	885;"	macro
+SPI_SR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	855;"	macro
+SPI_SR_RXNE	source_files\std_lib\inc\stm8l10x.h	889;"	macro
+SPI_SR_TXE	source_files\std_lib\inc\stm8l10x.h	888;"	macro
+SPI_SR_WKUP	source_files\std_lib\inc\stm8l10x.h	887;"	macro
+SPI_SendData	source_files\std_lib\inc\stm8l10x_spi.h	265;"	prototype	signature:(uint8_t Data)
+SPI_SendData	source_files\std_lib\src\stm8l10x_spi.c	199;"	function	signature:(uint8_t Data)
+SPI_TypeDef	source_files\std_lib\inc\stm8l10x.h	846;"	typedef	typeref:struct:SPI_struct
+SPI_WAIT_TIMEOUT	source_files\drv_mcu\src\drv_spi.c	25;"	macro	file:
+SPI_struct	source_files\std_lib\inc\stm8l10x.h	838;"	struct
+SR	source_files\std_lib\inc\stm8l10x.h	1153;"	member	struct:USART_struct
+SR	source_files\std_lib\inc\stm8l10x.h	803;"	member	struct:RST_struct
+SR	source_files\std_lib\inc\stm8l10x.h	843;"	member	struct:SPI_struct
+SR1	source_files\std_lib\inc\stm8l10x.h	1080;"	member	struct:TIM4_struct
+SR1	source_files\std_lib\inc\stm8l10x.h	434;"	member	struct:EXTI_struct
+SR1	source_files\std_lib\inc\stm8l10x.h	552;"	member	struct:I2C_struct
+SR1	source_files\std_lib\inc\stm8l10x.h	907;"	member	struct:TIM_struct
+SR2	source_files\std_lib\inc\stm8l10x.h	435;"	member	struct:EXTI_struct
+SR2	source_files\std_lib\inc\stm8l10x.h	553;"	member	struct:I2C_struct
+SR2	source_files\std_lib\inc\stm8l10x.h	908;"	member	struct:TIM_struct
+SR3	source_files\std_lib\inc\stm8l10x.h	554;"	member	struct:I2C_struct
+STRINGVECTOR	source_files\std_lib\inc\stm8l10x.h	1358;"	macro
+SUCCESS	source_files\std_lib\inc\stm8l10x.h	158;"	enumerator	enum:__anon9
+SetBit	source_files\std_lib\inc\stm8l10x.h	1393;"	macro
+TBR	source_files\std_lib\inc\stm8l10x.h	215;"	member	struct:AWU_struct
+TIM2	source_files\std_lib\inc\stm8l10x.h	1292;"	macro
+TIM2_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1240;"	macro
+TIM3	source_files\std_lib\inc\stm8l10x.h	1293;"	macro
+TIM3_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1241;"	macro
+TIM4	source_files\std_lib\inc\stm8l10x.h	1294;"	macro
+TIM4_ARR_ARR	source_files\std_lib\inc\stm8l10x.h	1141;"	macro
+TIM4_ARR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1098;"	macro
+TIM4_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1242;"	macro
+TIM4_CNTR_CNT	source_files\std_lib\inc\stm8l10x.h	1135;"	macro
+TIM4_CNTR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1096;"	macro
+TIM4_CR1_ARPE	source_files\std_lib\inc\stm8l10x.h	1108;"	macro
+TIM4_CR1_CEN	source_files\std_lib\inc\stm8l10x.h	1112;"	macro
+TIM4_CR1_OPM	source_files\std_lib\inc\stm8l10x.h	1109;"	macro
+TIM4_CR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1090;"	macro
+TIM4_CR1_UDIS	source_files\std_lib\inc\stm8l10x.h	1111;"	macro
+TIM4_CR1_URS	source_files\std_lib\inc\stm8l10x.h	1110;"	macro
+TIM4_CR2_MMS	source_files\std_lib\inc\stm8l10x.h	1115;"	macro
+TIM4_CR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1091;"	macro
+TIM4_EGR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1095;"	macro
+TIM4_EGR_TG	source_files\std_lib\inc\stm8l10x.h	1131;"	macro
+TIM4_EGR_UG	source_files\std_lib\inc\stm8l10x.h	1132;"	macro
+TIM4_IER_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1093;"	macro
+TIM4_IER_TIE	source_files\std_lib\inc\stm8l10x.h	1123;"	macro
+TIM4_IER_UIE	source_files\std_lib\inc\stm8l10x.h	1124;"	macro
+TIM4_PSCR_PSC	source_files\std_lib\inc\stm8l10x.h	1138;"	macro
+TIM4_PSCR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1097;"	macro
+TIM4_SMCR_MSM	source_files\std_lib\inc\stm8l10x.h	1120;"	macro
+TIM4_SMCR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1092;"	macro
+TIM4_SMCR_SMS	source_files\std_lib\inc\stm8l10x.h	1119;"	macro
+TIM4_SMCR_TS	source_files\std_lib\inc\stm8l10x.h	1118;"	macro
+TIM4_SR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1094;"	macro
+TIM4_SR1_TIF	source_files\std_lib\inc\stm8l10x.h	1127;"	macro
+TIM4_SR1_UIF	source_files\std_lib\inc\stm8l10x.h	1128;"	macro
+TIM4_TypeDef	source_files\std_lib\inc\stm8l10x.h	1086;"	typedef	typeref:struct:TIM4_struct
+TIM4_struct	source_files\std_lib\inc\stm8l10x.h	1074;"	struct
+TIM_ARRH_ARR	source_files\std_lib\inc\stm8l10x.h	1039;"	macro
+TIM_ARRH_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	947;"	macro
+TIM_ARRL_ARR	source_files\std_lib\inc\stm8l10x.h	1040;"	macro
+TIM_ARRL_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	948;"	macro
+TIM_BKR_AOE	source_files\std_lib\inc\stm8l10x.h	1054;"	macro
+TIM_BKR_BKE	source_files\std_lib\inc\stm8l10x.h	1056;"	macro
+TIM_BKR_BKP	source_files\std_lib\inc\stm8l10x.h	1055;"	macro
+TIM_BKR_LOCK	source_files\std_lib\inc\stm8l10x.h	1058;"	macro
+TIM_BKR_MOE	source_files\std_lib\inc\stm8l10x.h	1053;"	macro
+TIM_BKR_OSSI	source_files\std_lib\inc\stm8l10x.h	1057;"	macro
+TIM_BKR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	955;"	macro
+TIM_CCER1_CC1E	source_files\std_lib\inc\stm8l10x.h	1029;"	macro
+TIM_CCER1_CC1P	source_files\std_lib\inc\stm8l10x.h	1028;"	macro
+TIM_CCER1_CC2E	source_files\std_lib\inc\stm8l10x.h	1027;"	macro
+TIM_CCER1_CC2P	source_files\std_lib\inc\stm8l10x.h	1026;"	macro
+TIM_CCER1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	941;"	macro
+TIM_CCMR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	938;"	macro
+TIM_CCMR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	939;"	macro
+TIM_CCMR_CCxS	source_files\std_lib\inc\stm8l10x.h	1022;"	macro
+TIM_CCMR_ICxF	source_files\std_lib\inc\stm8l10x.h	1018;"	macro
+TIM_CCMR_ICxPSC	source_files\std_lib\inc\stm8l10x.h	1017;"	macro
+TIM_CCMR_OCM	source_files\std_lib\inc\stm8l10x.h	1019;"	macro
+TIM_CCMR_OCxFE	source_files\std_lib\inc\stm8l10x.h	1021;"	macro
+TIM_CCMR_OCxPE	source_files\std_lib\inc\stm8l10x.h	1020;"	macro
+TIM_CCMR_TIxDirect_Set	source_files\std_lib\inc\stm8l10x.h	1023;"	macro
+TIM_CCR1H_CCR1	source_files\std_lib\inc\stm8l10x.h	1044;"	macro
+TIM_CCR1H_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	950;"	macro
+TIM_CCR1L_CCR1	source_files\std_lib\inc\stm8l10x.h	1045;"	macro
+TIM_CCR1L_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	951;"	macro
+TIM_CCR2H_CCR2	source_files\std_lib\inc\stm8l10x.h	1048;"	macro
+TIM_CCR2H_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	952;"	macro
+TIM_CCR2L_CCR2	source_files\std_lib\inc\stm8l10x.h	1049;"	macro
+TIM_CCR2L_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	953;"	macro
+TIM_CNTRH_CNT	source_files\std_lib\inc\stm8l10x.h	1032;"	macro
+TIM_CNTRH_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	943;"	macro
+TIM_CNTRL_CNT	source_files\std_lib\inc\stm8l10x.h	1033;"	macro
+TIM_CNTRL_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	944;"	macro
+TIM_CR1_ARPE	source_files\std_lib\inc\stm8l10x.h	966;"	macro
+TIM_CR1_CEN	source_files\std_lib\inc\stm8l10x.h	972;"	macro
+TIM_CR1_CMS	source_files\std_lib\inc\stm8l10x.h	967;"	macro
+TIM_CR1_DIR	source_files\std_lib\inc\stm8l10x.h	968;"	macro
+TIM_CR1_OPM	source_files\std_lib\inc\stm8l10x.h	969;"	macro
+TIM_CR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	930;"	macro
+TIM_CR1_UDIS	source_files\std_lib\inc\stm8l10x.h	971;"	macro
+TIM_CR1_URS	source_files\std_lib\inc\stm8l10x.h	970;"	macro
+TIM_CR2_MMS	source_files\std_lib\inc\stm8l10x.h	976;"	macro
+TIM_CR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	931;"	macro
+TIM_CR2_TI1S	source_files\std_lib\inc\stm8l10x.h	975;"	macro
+TIM_EGR_BG	source_files\std_lib\inc\stm8l10x.h	1010;"	macro
+TIM_EGR_CC1G	source_files\std_lib\inc\stm8l10x.h	1013;"	macro
+TIM_EGR_CC2G	source_files\std_lib\inc\stm8l10x.h	1012;"	macro
+TIM_EGR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	937;"	macro
+TIM_EGR_TG	source_files\std_lib\inc\stm8l10x.h	1011;"	macro
+TIM_EGR_UG	source_files\std_lib\inc\stm8l10x.h	1014;"	macro
+TIM_ETR_ECE	source_files\std_lib\inc\stm8l10x.h	985;"	macro
+TIM_ETR_ETF	source_files\std_lib\inc\stm8l10x.h	988;"	macro
+TIM_ETR_ETP	source_files\std_lib\inc\stm8l10x.h	986;"	macro
+TIM_ETR_ETPS	source_files\std_lib\inc\stm8l10x.h	987;"	macro
+TIM_ETR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	933;"	macro
+TIM_IER_BIE	source_files\std_lib\inc\stm8l10x.h	992;"	macro
+TIM_IER_CC1IE	source_files\std_lib\inc\stm8l10x.h	995;"	macro
+TIM_IER_CC2IE	source_files\std_lib\inc\stm8l10x.h	994;"	macro
+TIM_IER_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	934;"	macro
+TIM_IER_TIE	source_files\std_lib\inc\stm8l10x.h	993;"	macro
+TIM_IER_UIE	source_files\std_lib\inc\stm8l10x.h	996;"	macro
+TIM_OISR_OIS1	source_files\std_lib\inc\stm8l10x.h	1062;"	macro
+TIM_OISR_OIS2	source_files\std_lib\inc\stm8l10x.h	1061;"	macro
+TIM_OISR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	956;"	macro
+TIM_PSCR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	946;"	macro
+TIM_PSC_PSC	source_files\std_lib\inc\stm8l10x.h	1036;"	macro
+TIM_SMCR_MSM	source_files\std_lib\inc\stm8l10x.h	979;"	macro
+TIM_SMCR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	932;"	macro
+TIM_SMCR_SMS	source_files\std_lib\inc\stm8l10x.h	981;"	macro
+TIM_SMCR_TS	source_files\std_lib\inc\stm8l10x.h	980;"	macro
+TIM_SR1_BIF	source_files\std_lib\inc\stm8l10x.h	999;"	macro
+TIM_SR1_CC1IF	source_files\std_lib\inc\stm8l10x.h	1002;"	macro
+TIM_SR1_CC2IF	source_files\std_lib\inc\stm8l10x.h	1001;"	macro
+TIM_SR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	935;"	macro
+TIM_SR1_TIF	source_files\std_lib\inc\stm8l10x.h	1000;"	macro
+TIM_SR1_UIF	source_files\std_lib\inc\stm8l10x.h	1003;"	macro
+TIM_SR2_CC1OF	source_files\std_lib\inc\stm8l10x.h	1007;"	macro
+TIM_SR2_CC2OF	source_files\std_lib\inc\stm8l10x.h	1006;"	macro
+TIM_SR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	936;"	macro
+TIM_TypeDef	source_files\std_lib\inc\stm8l10x.h	925;"	typedef	typeref:struct:TIM_struct
+TIM_struct	source_files\std_lib\inc\stm8l10x.h	900;"	struct
+TINY	source_files\std_lib\inc\stm8l10x.h	57;"	macro
+TINY	source_files\std_lib\inc\stm8l10x.h	63;"	macro
+TINY	source_files\std_lib\inc\stm8l10x.h	70;"	macro
+TRISER	source_files\std_lib\inc\stm8l10x.h	558;"	member	struct:I2C_struct
+TRUE	source_files\std_lib\inc\stm8l10x.h	151;"	enumerator	enum:__anon6
+TX_MODE	source_files\drv_periph\inc\drv_cc1101.h	50;"	enumerator	enum:__anon3
+TX_MODE_1	source_files\app\inc\main.h	35;"	enumerator	enum:__anon1
+TX_MODE_2	source_files\app\inc\main.h	36;"	enumerator	enum:__anon1
+ToAscii	source_files\drv_periph\inc\drv_cc1101.h	88;"	prototype	signature:(int r,uint8_t *ascii)
+ToAscii	source_files\drv_periph\src\drv_cc1101.c	473;"	function	signature:(int r,uint8_t *ascii)
+U16_MAX	source_files\std_lib\inc\stm8l10x.h	163;"	macro
+U32_MAX	source_files\std_lib\inc\stm8l10x.h	166;"	macro
+U8_MAX	source_files\std_lib\inc\stm8l10x.h	160;"	macro
+UART_RX_GPIO_PIN	source_files\drv_mcu\inc\drv_uart.h	31;"	macro
+UART_RX_GPIO_PORT	source_files\drv_mcu\inc\drv_uart.h	30;"	macro
+UART_TX_GPIO_PIN	source_files\drv_mcu\inc\drv_uart.h	28;"	macro
+UART_TX_GPIO_PORT	source_files\drv_mcu\inc\drv_uart.h	27;"	macro
+USART	source_files\std_lib\inc\stm8l10x.h	1291;"	macro
+USART_ADDRESS_MAX	source_files\std_lib\inc\stm8l10x_usart.h	277;"	macro
+USART_BRR1_DIVM	source_files\std_lib\inc\stm8l10x.h	1194;"	macro
+USART_BRR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1172;"	macro
+USART_BRR2_DIVF	source_files\std_lib\inc\stm8l10x.h	1196;"	macro
+USART_BRR2_DIVM	source_files\std_lib\inc\stm8l10x.h	1195;"	macro
+USART_BRR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1173;"	macro
+USART_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1238;"	macro
+USART_CPHA_1Edge	source_files\std_lib\inc\stm8l10x_usart.h	142;"	enumerator	enum:__anon34
+USART_CPHA_2Edge	source_files\std_lib\inc\stm8l10x_usart.h	143;"	enumerator	enum:__anon34
+USART_CPHA_TypeDef	source_files\std_lib\inc\stm8l10x_usart.h	144;"	typedef	typeref:enum:__anon34
+USART_CPOL_High	source_files\std_lib\inc\stm8l10x_usart.h	134;"	enumerator	enum:__anon33
+USART_CPOL_Low	source_files\std_lib\inc\stm8l10x_usart.h	133;"	enumerator	enum:__anon33
+USART_CPOL_TypeDef	source_files\std_lib\inc\stm8l10x_usart.h	135;"	typedef	typeref:enum:__anon33
+USART_CR1_M	source_files\std_lib\inc\stm8l10x.h	1200;"	macro
+USART_CR1_PCEN	source_files\std_lib\inc\stm8l10x.h	1202;"	macro
+USART_CR1_PIEN	source_files\std_lib\inc\stm8l10x.h	1204;"	macro
+USART_CR1_PS	source_files\std_lib\inc\stm8l10x.h	1203;"	macro
+USART_CR1_R8	source_files\std_lib\inc\stm8l10x.h	1197;"	macro
+USART_CR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1174;"	macro
+USART_CR1_T8	source_files\std_lib\inc\stm8l10x.h	1198;"	macro
+USART_CR1_USARTD	source_files\std_lib\inc\stm8l10x.h	1199;"	macro
+USART_CR1_WAKE	source_files\std_lib\inc\stm8l10x.h	1201;"	macro
+USART_CR2_ILIEN	source_files\std_lib\inc\stm8l10x.h	1208;"	macro
+USART_CR2_REN	source_files\std_lib\inc\stm8l10x.h	1210;"	macro
+USART_CR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1175;"	macro
+USART_CR2_RIEN	source_files\std_lib\inc\stm8l10x.h	1207;"	macro
+USART_CR2_RWU	source_files\std_lib\inc\stm8l10x.h	1211;"	macro
+USART_CR2_SBK	source_files\std_lib\inc\stm8l10x.h	1212;"	macro
+USART_CR2_TCIEN	source_files\std_lib\inc\stm8l10x.h	1206;"	macro
+USART_CR2_TEN	source_files\std_lib\inc\stm8l10x.h	1209;"	macro
+USART_CR2_TIEN	source_files\std_lib\inc\stm8l10x.h	1205;"	macro
+USART_CR3_CLKEN	source_files\std_lib\inc\stm8l10x.h	1215;"	macro
+USART_CR3_CPHA	source_files\std_lib\inc\stm8l10x.h	1217;"	macro
+USART_CR3_CPOL	source_files\std_lib\inc\stm8l10x.h	1216;"	macro
+USART_CR3_LBCL	source_files\std_lib\inc\stm8l10x.h	1218;"	macro
+USART_CR3_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1176;"	macro
+USART_CR3_Reserved	source_files\std_lib\inc\stm8l10x.h	1213;"	macro
+USART_CR3_STOP	source_files\std_lib\inc\stm8l10x.h	1214;"	macro
+USART_CR4_ADD	source_files\std_lib\inc\stm8l10x.h	1220;"	macro
+USART_CR4_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1177;"	macro
+USART_CR4_Reserved	source_files\std_lib\inc\stm8l10x.h	1219;"	macro
+USART_ClearFlag	source_files\std_lib\inc\stm8l10x_usart.h	312;"	prototype	signature:(void)
+USART_ClearFlag	source_files\std_lib\src\stm8l10x_usart.c	454;"	function	signature:(void)
+USART_ClearITPendingBit	source_files\std_lib\inc\stm8l10x_usart.h	314;"	prototype	signature:(void)
+USART_ClearITPendingBit	source_files\std_lib\src\stm8l10x_usart.c	546;"	function	signature:(void)
+USART_ClockInit	source_files\std_lib\inc\stm8l10x_usart.h	299;"	prototype	signature:(USART_Clock_TypeDef USART_Clock, USART_CPOL_TypeDef USART_CPOL, USART_CPHA_TypeDef USART_CPHA, USART_LastBit_TypeDef USART_LastBit)
+USART_ClockInit	source_files\std_lib\src\stm8l10x_usart.c	171;"	function	signature:(USART_Clock_TypeDef USART_Clock, USART_CPOL_TypeDef USART_CPOL, USART_CPHA_TypeDef USART_CPHA, USART_LastBit_TypeDef USART_LastBit)
+USART_Clock_Disable	source_files\std_lib\inc\stm8l10x_usart.h	124;"	enumerator	enum:__anon32
+USART_Clock_Enable	source_files\std_lib\inc\stm8l10x_usart.h	125;"	enumerator	enum:__anon32
+USART_Clock_TypeDef	source_files\std_lib\inc\stm8l10x_usart.h	126;"	typedef	typeref:enum:__anon32
+USART_Cmd	source_files\std_lib\inc\stm8l10x_usart.h	301;"	prototype	signature:(FunctionalState NewState)
+USART_Cmd	source_files\std_lib\src\stm8l10x_usart.c	201;"	function	signature:(FunctionalState NewState)
+USART_DATA_9BITS_MAX	source_files\std_lib\inc\stm8l10x_usart.h	285;"	macro
+USART_DeInit	source_files\std_lib\inc\stm8l10x_usart.h	296;"	prototype	signature:(void)
+USART_DeInit	source_files\std_lib\src\stm8l10x_usart.c	59;"	function	signature:(void)
+USART_FLAG_FE	source_files\std_lib\inc\stm8l10x_usart.h	52;"	enumerator	enum:__anon25
+USART_FLAG_IDLE	source_files\std_lib\inc\stm8l10x_usart.h	49;"	enumerator	enum:__anon25
+USART_FLAG_NF	source_files\std_lib\inc\stm8l10x_usart.h	51;"	enumerator	enum:__anon25
+USART_FLAG_OR	source_files\std_lib\inc\stm8l10x_usart.h	50;"	enumerator	enum:__anon25
+USART_FLAG_PE	source_files\std_lib\inc\stm8l10x_usart.h	53;"	enumerator	enum:__anon25
+USART_FLAG_RXNE	source_files\std_lib\inc\stm8l10x_usart.h	48;"	enumerator	enum:__anon25
+USART_FLAG_SBK	source_files\std_lib\inc\stm8l10x_usart.h	54;"	enumerator	enum:__anon25
+USART_FLAG_TC	source_files\std_lib\inc\stm8l10x_usart.h	47;"	enumerator	enum:__anon25
+USART_FLAG_TXE	source_files\std_lib\inc\stm8l10x_usart.h	46;"	enumerator	enum:__anon25
+USART_FLAG_TypeDef	source_files\std_lib\inc\stm8l10x_usart.h	55;"	typedef	typeref:enum:__anon25
+USART_GetFlagStatus	source_files\std_lib\inc\stm8l10x_usart.h	311;"	prototype	signature:(USART_FLAG_TypeDef USART_FLAG)
+USART_GetFlagStatus	source_files\std_lib\src\stm8l10x_usart.c	400;"	function	signature:(USART_FLAG_TypeDef USART_FLAG)
+USART_GetITStatus	source_files\std_lib\inc\stm8l10x_usart.h	313;"	prototype	signature:(USART_IT_TypeDef USART_IT)
+USART_GetITStatus	source_files\std_lib\src\stm8l10x_usart.c	472;"	function	signature:(USART_IT_TypeDef USART_IT)
+USART_ITConfig	source_files\std_lib\inc\stm8l10x_usart.h	302;"	prototype	signature:(USART_IT_TypeDef USART_IT, FunctionalState NewState)
+USART_ITConfig	source_files\std_lib\src\stm8l10x_usart.c	229;"	function	signature:(USART_IT_TypeDef USART_IT, FunctionalState NewState)
+USART_IT_IDLE	source_files\std_lib\inc\stm8l10x_usart.h	68;"	enumerator	enum:__anon26
+USART_IT_OR	source_files\std_lib\inc\stm8l10x_usart.h	69;"	enumerator	enum:__anon26
+USART_IT_PE	source_files\std_lib\inc\stm8l10x_usart.h	70;"	enumerator	enum:__anon26
+USART_IT_RXNE	source_files\std_lib\inc\stm8l10x_usart.h	67;"	enumerator	enum:__anon26
+USART_IT_TC	source_files\std_lib\inc\stm8l10x_usart.h	66;"	enumerator	enum:__anon26
+USART_IT_TXE	source_files\std_lib\inc\stm8l10x_usart.h	65;"	enumerator	enum:__anon26
+USART_IT_TypeDef	source_files\std_lib\inc\stm8l10x_usart.h	71;"	typedef	typeref:enum:__anon26
+USART_Init	source_files\std_lib\inc\stm8l10x_usart.h	297;"	prototype	signature:(uint32_t BaudRate, USART_WordLength_TypeDef USART_WordLength, USART_StopBits_TypeDef USART_StopBits, USART_Parity_TypeDef USART_Parity, USART_Mode_TypeDef USART_Mode)
+USART_Init	source_files\std_lib\src\stm8l10x_usart.c	100;"	function	signature:(uint32_t BaudRate, USART_WordLength_TypeDef USART_WordLength, USART_StopBits_TypeDef USART_StopBits, USART_Parity_TypeDef USART_Parity, USART_Mode_TypeDef USART_Mode)
+USART_LastBit_Disable	source_files\std_lib\inc\stm8l10x_usart.h	151;"	enumerator	enum:__anon35
+USART_LastBit_Enable	source_files\std_lib\inc\stm8l10x_usart.h	152;"	enumerator	enum:__anon35
+USART_LastBit_TypeDef	source_files\std_lib\inc\stm8l10x_usart.h	153;"	typedef	typeref:enum:__anon35
+USART_Mode_Rx	source_files\std_lib\inc\stm8l10x_usart.h	115;"	enumerator	enum:__anon31
+USART_Mode_Tx	source_files\std_lib\inc\stm8l10x_usart.h	116;"	enumerator	enum:__anon31
+USART_Mode_TypeDef	source_files\std_lib\inc\stm8l10x_usart.h	117;"	typedef	typeref:enum:__anon31
+USART_Parity_Even	source_files\std_lib\inc\stm8l10x_usart.h	97;"	enumerator	enum:__anon29
+USART_Parity_No	source_files\std_lib\inc\stm8l10x_usart.h	96;"	enumerator	enum:__anon29
+USART_Parity_Odd	source_files\std_lib\inc\stm8l10x_usart.h	98;"	enumerator	enum:__anon29
+USART_Parity_TypeDef	source_files\std_lib\inc\stm8l10x_usart.h	99;"	typedef	typeref:enum:__anon29
+USART_ReceiveData8	source_files\std_lib\inc\stm8l10x_usart.h	303;"	prototype	signature:(void)
+USART_ReceiveData8	source_files\std_lib\src\stm8l10x_usart.c	275;"	function	signature:(void)
+USART_ReceiveData9	source_files\std_lib\inc\stm8l10x_usart.h	304;"	prototype	signature:(void)
+USART_ReceiveData9	source_files\std_lib\src\stm8l10x_usart.c	287;"	function	signature:(void)
+USART_ReceiverWakeUpCmd	source_files\std_lib\inc\stm8l10x_usart.h	305;"	prototype	signature:(FunctionalState NewState)
+USART_ReceiverWakeUpCmd	source_files\std_lib\src\stm8l10x_usart.c	301;"	function	signature:(FunctionalState NewState)
+USART_SR_FE	source_files\std_lib\inc\stm8l10x.h	1192;"	macro
+USART_SR_IDLE	source_files\std_lib\inc\stm8l10x.h	1189;"	macro
+USART_SR_NF	source_files\std_lib\inc\stm8l10x.h	1191;"	macro
+USART_SR_OR	source_files\std_lib\inc\stm8l10x.h	1190;"	macro
+USART_SR_PE	source_files\std_lib\inc\stm8l10x.h	1193;"	macro
+USART_SR_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	1171;"	macro
+USART_SR_RXNE	source_files\std_lib\inc\stm8l10x.h	1188;"	macro
+USART_SR_TC	source_files\std_lib\inc\stm8l10x.h	1187;"	macro
+USART_SR_TXE	source_files\std_lib\inc\stm8l10x.h	1186;"	macro
+USART_SendBreak	source_files\std_lib\inc\stm8l10x_usart.h	306;"	prototype	signature:(void)
+USART_SendBreak	source_files\std_lib\src\stm8l10x_usart.c	322;"	function	signature:(void)
+USART_SendData8	source_files\std_lib\inc\stm8l10x_usart.h	307;"	prototype	signature:(uint8_t Data)
+USART_SendData8	source_files\std_lib\src\stm8l10x_usart.c	332;"	function	signature:(uint8_t Data)
+USART_SendData9	source_files\std_lib\inc\stm8l10x_usart.h	308;"	prototype	signature:(uint16_t Data)
+USART_SendData9	source_files\std_lib\src\stm8l10x_usart.c	344;"	function	signature:(uint16_t Data)
+USART_SetAddress	source_files\std_lib\inc\stm8l10x_usart.h	309;"	prototype	signature:(uint8_t Address)
+USART_SetAddress	source_files\std_lib\src\stm8l10x_usart.c	360;"	function	signature:(uint8_t Address)
+USART_StopBits_1	source_files\std_lib\inc\stm8l10x_usart.h	87;"	enumerator	enum:__anon28
+USART_StopBits_2	source_files\std_lib\inc\stm8l10x_usart.h	88;"	enumerator	enum:__anon28
+USART_StopBits_TypeDef	source_files\std_lib\inc\stm8l10x_usart.h	89;"	typedef	typeref:enum:__anon28
+USART_TypeDef	source_files\std_lib\inc\stm8l10x.h	1165;"	typedef	typeref:struct:USART_struct
+USART_WakeUpConfig	source_files\std_lib\inc\stm8l10x_usart.h	310;"	prototype	signature:(USART_WakeUp_TypeDef USART_WakeUp)
+USART_WakeUpConfig	source_files\std_lib\src\stm8l10x_usart.c	379;"	function	signature:(USART_WakeUp_TypeDef USART_WakeUp)
+USART_WakeUp_AddressMark	source_files\std_lib\inc\stm8l10x_usart.h	79;"	enumerator	enum:__anon27
+USART_WakeUp_IdleLine	source_files\std_lib\inc\stm8l10x_usart.h	78;"	enumerator	enum:__anon27
+USART_WakeUp_TypeDef	source_files\std_lib\inc\stm8l10x_usart.h	80;"	typedef	typeref:enum:__anon27
+USART_WordLength_8D	source_files\std_lib\inc\stm8l10x_usart.h	106;"	enumerator	enum:__anon30
+USART_WordLength_9D	source_files\std_lib\inc\stm8l10x_usart.h	107;"	enumerator	enum:__anon30
+USART_WordLength_TypeDef	source_files\std_lib\inc\stm8l10x_usart.h	108;"	typedef	typeref:enum:__anon30
+USART_struct	source_files\std_lib\inc\stm8l10x.h	1151;"	struct
+USE_STDPERIPH_DRIVER	source_files\std_lib\inc\stm8l10x.h	51;"	macro
+VECTOR_ID	source_files\std_lib\inc\stm8l10x.h	1359;"	macro
+ValBit	source_files\std_lib\inc\stm8l10x.h	1402;"	macro
+WFE	source_files\std_lib\inc\stm8l10x.h	1286;"	macro
+WFE_BaseAddress	source_files\std_lib\inc\stm8l10x.h	1250;"	macro
+WFE_CR1_EXTI_EV0	source_files\std_lib\inc\stm8l10x.h	763;"	macro
+WFE_CR1_EXTI_EV1	source_files\std_lib\inc\stm8l10x.h	762;"	macro
+WFE_CR1_EXTI_EV2	source_files\std_lib\inc\stm8l10x.h	761;"	macro
+WFE_CR1_EXTI_EV3	source_files\std_lib\inc\stm8l10x.h	760;"	macro
+WFE_CR1_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	750;"	macro
+WFE_CR1_TIM2_EV0	source_files\std_lib\inc\stm8l10x.h	765;"	macro
+WFE_CR1_TIM2_EV1	source_files\std_lib\inc\stm8l10x.h	764;"	macro
+WFE_CR2_EXTI_EV4	source_files\std_lib\inc\stm8l10x.h	772;"	macro
+WFE_CR2_EXTI_EV5	source_files\std_lib\inc\stm8l10x.h	771;"	macro
+WFE_CR2_EXTI_EV6	source_files\std_lib\inc\stm8l10x.h	770;"	macro
+WFE_CR2_EXTI_EV7	source_files\std_lib\inc\stm8l10x.h	769;"	macro
+WFE_CR2_EXTI_EVB	source_files\std_lib\inc\stm8l10x.h	768;"	macro
+WFE_CR2_EXTI_EVD	source_files\std_lib\inc\stm8l10x.h	767;"	macro
+WFE_CR2_RESET_VALUE	source_files\std_lib\inc\stm8l10x.h	751;"	macro
+WFE_TypeDef	source_files\std_lib\inc\stm8l10x.h	742;"	typedef	typeref:struct:WFE_struct
+WFE_struct	source_files\std_lib\inc\stm8l10x.h	737;"	struct
+WRITE_BURST	source_files\drv_periph\inc\drv_cc1101_reg.h	113;"	macro
+_COSMIC_	source_files\std_lib\inc\stm8l10x.h	38;"	macro
+_IAR_	source_files\std_lib\inc\stm8l10x.h	42;"	macro
+_RAISONANCE_	source_files\std_lib\inc\stm8l10x.h	40;"	macro
+__CONST	source_files\std_lib\inc\stm8l10x.h	78;"	macro
+__DRV_BUTTON_H__	source_files\drv_mcu\inc\drv_button.h	18;"	macro
+__DRV_CC1101_H__	source_files\drv_periph\inc\drv_cc1101.h	19;"	macro
+__DRV_CC1101_REG_H__	source_files\drv_periph\inc\drv_cc1101_reg.h	19;"	macro
+__DRV_DELAY_H__	source_files\drv_mcu\inc\drv_delay.h	18;"	macro
+__DRV_LED_H__	source_files\drv_mcu\inc\drv_led.h	18;"	macro
+__DRV_SPI_H__	source_files\drv_mcu\inc\drv_spi.h	18;"	macro
+__DRV_UART_H__	source_files\drv_mcu\inc\drv_uart.h	18;"	macro
+__I	source_files\std_lib\inc\stm8l10x.h	126;"	macro
+__IO	source_files\std_lib\inc\stm8l10x.h	128;"	macro
+__MAIN_H__	source_files\app\inc\main.h	19;"	macro
+__MODS0__	f:\seriel\stvdc\hstm8\mods0.h	11;"	macro
+__O	source_files\std_lib\inc\stm8l10x.h	127;"	macro
+__STM8L10X_CLK_H	source_files\std_lib\inc\stm8l10x_clk.h	31;"	macro
+__STM8L10X_GPIO_H	source_files\std_lib\inc\stm8l10x_gpio.h	31;"	macro
+__STM8L10X_SPI_H	source_files\std_lib\inc\stm8l10x_spi.h	31;"	macro
+__STM8L10X_STDPERIPH_VERSION	source_files\std_lib\inc\stm8l10x.h	105;"	macro
+__STM8L10X_STDPERIPH_VERSION_MAIN	source_files\std_lib\inc\stm8l10x.h	101;"	macro
+__STM8L10X_STDPERIPH_VERSION_RC	source_files\std_lib\inc\stm8l10x.h	104;"	macro
+__STM8L10X_STDPERIPH_VERSION_SUB1	source_files\std_lib\inc\stm8l10x.h	102;"	macro
+__STM8L10X_STDPERIPH_VERSION_SUB2	source_files\std_lib\inc\stm8l10x.h	103;"	macro
+__STM8L10X_USART_H	source_files\std_lib\inc\stm8l10x_usart.h	31;"	macro
+__STM8L10x_CONF_H	source_files\std_lib\inc\stm8l10x_conf.h	30;"	macro
+__STM8L10x_H	source_files\std_lib\inc\stm8l10x.h	30;"	macro
+_stext	stm8_interrupt_vector.c	20;"	prototype	file:
+_vectab	stm8_interrupt_vector.c	22;"	variable
+assert_failed	source_files\std_lib\inc\stm8l10x_conf.h	74;"	prototype	signature:(uint8_t* file, uint32_t line)
+assert_param	source_files\std_lib\inc\stm8l10x_conf.h	72;"	macro
+assert_param	source_files\std_lib\inc\stm8l10x_conf.h	76;"	macro
+bool	source_files\std_lib\inc\stm8l10x.h	151;"	typedef	typeref:enum:__anon6
+disableInterrupts	source_files\std_lib\inc\stm8l10x.h	1314;"	macro
+disableInterrupts	source_files\std_lib\inc\stm8l10x.h	1324;"	macro
+disableInterrupts	source_files\std_lib\inc\stm8l10x.h	1335;"	macro
+drv_button_check	source_files\drv_mcu\inc\drv_button.h	39;"	prototype	signature:( void )
+drv_button_check	source_files\drv_mcu\src\drv_button.c	42;"	function	signature:( void )
+drv_button_init	source_files\drv_mcu\inc\drv_button.h	38;"	prototype	signature:( void )
+drv_button_init	source_files\drv_mcu\src\drv_button.c	28;"	function	signature:( void )
+drv_delay_1ms	source_files\drv_mcu\src\drv_delay.c	28;"	function	file:	signature:( void )
+drv_delay_ms	source_files\drv_mcu\inc\drv_delay.h	24;"	prototype	signature:( uint16_t Ms )
+drv_delay_ms	source_files\drv_mcu\src\drv_delay.c	46;"	function	signature:( uint16_t Ms )
+drv_led_flashing	source_files\drv_mcu\inc\drv_led.h	43;"	prototype	signature:( LedPortType LedPort )
+drv_led_flashing	source_files\drv_mcu\src\drv_led.c	82;"	function	signature:( LedPortType LedPort )
+drv_led_init	source_files\drv_mcu\inc\drv_led.h	40;"	prototype	signature:( void )
+drv_led_init	source_files\drv_mcu\src\drv_led.c	28;"	function	signature:( void )
+drv_led_off	source_files\drv_mcu\inc\drv_led.h	42;"	prototype	signature:( LedPortType LedPort )
+drv_led_off	source_files\drv_mcu\src\drv_led.c	62;"	function	signature:( LedPortType LedPort )
+drv_led_on	source_files\drv_mcu\inc\drv_led.h	41;"	prototype	signature:( LedPortType LedPort )
+drv_led_on	source_files\drv_mcu\src\drv_led.c	42;"	function	signature:( LedPortType LedPort )
+drv_spi_init	source_files\drv_mcu\inc\drv_spi.h	62;"	prototype	signature:( void )
+drv_spi_init	source_files\drv_mcu\src\drv_spi.c	122;"	function	signature:( void )
+drv_spi_init	source_files\drv_mcu\src\drv_spi.c	34;"	function	signature:( void )
+drv_spi_read_write_byte	source_files\drv_mcu\inc\drv_spi.h	63;"	prototype	signature:( uint8_t TxByte )
+drv_spi_read_write_byte	source_files\drv_mcu\src\drv_spi.c	138;"	function	signature:( uint8_t TxByte )
+drv_spi_read_write_byte	source_files\drv_mcu\src\drv_spi.c	57;"	function	signature:( uint8_t TxByte )
+drv_spi_read_write_string	source_files\drv_mcu\inc\drv_spi.h	64;"	prototype	signature:( uint8_t* ReadBuffer, uint8_t* WriteBuffer, uint16_t Length )
+drv_spi_read_write_string	source_files\drv_mcu\src\drv_spi.c	186;"	function	signature:( uint8_t* ReadBuffer, uint8_t* WriteBuffer, uint16_t Length )
+drv_spi_read_write_string	source_files\drv_mcu\src\drv_spi.c	92;"	function	signature:( uint8_t* ReadBuffer, uint8_t* WriteBuffer, uint16_t Length )
+drv_uart_init	source_files\drv_mcu\inc\drv_uart.h	34;"	prototype	signature:( uint32_t UartBaudRate )
+drv_uart_init	source_files\drv_mcu\src\drv_uart.c	27;"	function	signature:( uint32_t UartBaudRate )
+drv_uart_rx_bytes	source_files\drv_mcu\inc\drv_uart.h	36;"	prototype	signature:( uint8_t* RxBuffer )
+drv_uart_rx_bytes	source_files\drv_mcu\src\drv_uart.c	66;"	function	signature:( uint8_t* RxBuffer )
+drv_uart_tx_bytes	source_files\drv_mcu\inc\drv_uart.h	35;"	prototype	signature:( uint8_t* TxBuffer, uint8_t Length )
+drv_uart_tx_bytes	source_files\drv_mcu\src\drv_uart.c	49;"	function	signature:( uint8_t* TxBuffer, uint8_t Length )
+enableInterrupts	source_files\std_lib\inc\stm8l10x.h	1313;"	macro
+enableInterrupts	source_files\std_lib\inc\stm8l10x.h	1323;"	macro
+enableInterrupts	source_files\std_lib\inc\stm8l10x.h	1334;"	macro
+g_Ashining	source_files\app\src\main.c	21;"	variable
+g_RF24L01RxBuffer	source_files\app\src\main.c	24;"	variable
+g_TxMode	source_files\app\src\main.c	22;"	variable
+g_UartRxBuffer	source_files\app\src\main.c	23;"	variable
+halt	source_files\std_lib\inc\stm8l10x.h	1321;"	macro
+halt	source_files\std_lib\inc\stm8l10x.h	1331;"	macro
+halt	source_files\std_lib\inc\stm8l10x.h	1342;"	macro
+int16_t	source_files\std_lib\inc\stm8l10x.h	132;"	typedef
+int32_t	source_files\std_lib\inc\stm8l10x.h	133;"	typedef
+int8_t	source_files\std_lib\inc\stm8l10x.h	131;"	typedef
+interrupt_handler	stm8_interrupt_vector.c	9;"	member	struct:interrupt_vector	file:
+interrupt_handler_t	stm8_interrupt_vector.c	5;"	typedef	file:
+interrupt_instruction	stm8_interrupt_vector.c	8;"	member	struct:interrupt_vector	file:
+interrupt_vector	stm8_interrupt_vector.c	7;"	struct	file:
+led_green_flashing	source_files\drv_mcu\inc\drv_led.h	52;"	macro
+led_green_off	source_files\drv_mcu\inc\drv_led.h	51;"	macro
+led_green_on	source_files\drv_mcu\inc\drv_led.h	50;"	macro
+led_red_flashing	source_files\drv_mcu\inc\drv_led.h	48;"	macro
+led_red_off	source_files\drv_mcu\inc\drv_led.h	47;"	macro
+led_red_on	source_files\drv_mcu\inc\drv_led.h	46;"	macro
+mChannel	source_files\app\src\main.c	35;"	variable
+main	source_files\app\src\main.c	42;"	function	signature:( void )
+nop	source_files\std_lib\inc\stm8l10x.h	1317;"	macro
+nop	source_files\std_lib\inc\stm8l10x.h	1327;"	macro
+nop	source_files\std_lib\inc\stm8l10x.h	1338;"	macro
+right	source_files\app\src\main.c	30;"	variable
+rim	source_files\std_lib\inc\stm8l10x.h	1315;"	macro
+rim	source_files\std_lib\inc\stm8l10x.h	1325;"	macro
+rim	source_files\std_lib\inc\stm8l10x.h	1336;"	macro
+rssi	source_files\app\src\main.c	26;"	variable
+rssi_ascii	source_files\app\src\main.c	28;"	variable
+s16	source_files\std_lib\inc\stm8l10x.h	143;"	typedef
+s32	source_files\std_lib\inc\stm8l10x.h	142;"	typedef
+s8	source_files\std_lib\inc\stm8l10x.h	144;"	typedef
+sendFlag	source_files\app\src\main.c	34;"	variable
+setChannel	source_files\drv_periph\inc\drv_cc1101.h	89;"	prototype	signature:(uint8_t channel)
+setChannel	source_files\drv_periph\src\drv_cc1101.c	494;"	function	signature:(uint8_t channel)
+sim	source_files\std_lib\inc\stm8l10x.h	1316;"	macro
+sim	source_files\std_lib\inc\stm8l10x.h	1326;"	macro
+sim	source_files\std_lib\inc\stm8l10x.h	1337;"	macro
+spi_get_miso	source_files\drv_mcu\inc\drv_spi.h	57;"	macro
+spi_set_clk_high	source_files\drv_mcu\inc\drv_spi.h	51;"	macro
+spi_set_clk_low	source_files\drv_mcu\inc\drv_spi.h	52;"	macro
+spi_set_mosi_hight	source_files\drv_mcu\inc\drv_spi.h	54;"	macro
+spi_set_mosi_low	source_files\drv_mcu\inc\drv_spi.h	55;"	macro
+spi_set_nss_high	source_files\drv_mcu\inc\drv_spi.h	43;"	macro
+spi_set_nss_low	source_files\drv_mcu\inc\drv_spi.h	44;"	macro
+temp	source_files\app\src\main.c	27;"	variable
+trap	source_files\std_lib\inc\stm8l10x.h	1318;"	macro
+trap	source_files\std_lib\inc\stm8l10x.h	1328;"	macro
+trap	source_files\std_lib\inc\stm8l10x.h	1339;"	macro
+u16	source_files\std_lib\inc\stm8l10x.h	147;"	typedef
+u32	source_files\std_lib\inc\stm8l10x.h	146;"	typedef
+u8	source_files\std_lib\inc\stm8l10x.h	148;"	typedef
+uint16_t	source_files\std_lib\inc\stm8l10x.h	137;"	typedef
+uint32_t	source_files\std_lib\inc\stm8l10x.h	138;"	typedef
+uint8_t	source_files\std_lib\inc\stm8l10x.h	136;"	typedef
+wfe	source_files\std_lib\inc\stm8l10x.h	1320;"	macro
+wfe	source_files\std_lib\inc\stm8l10x.h	1330;"	macro
+wfe	source_files\std_lib\inc\stm8l10x.h	1341;"	macro
+wfi	source_files\std_lib\inc\stm8l10x.h	1319;"	macro
+wfi	source_files\std_lib\inc\stm8l10x.h	1329;"	macro
+wfi	source_files\std_lib\inc\stm8l10x.h	1340;"	macro
+wrong	source_files\app\src\main.c	31;"	variable

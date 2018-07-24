@@ -22,6 +22,7 @@ const char *g_Ashining = "ashining";
 uint8_t g_TxMode = 0;
 uint8_t g_UartRxBuffer[ 100 ] = { 0 };
 uint8_t g_RF24L01RxBuffer[ 32 ] = { 0 }; 
+uint8_t send_test[5] = {1, 2, 3, 4, 5};
 
 int rssi=0;
 uint8_t temp=65;
@@ -42,6 +43,7 @@ int mChannel=0;
 int main( void )
 {	
 	uint8_t i = 0;
+	uint8_t uart_receive_len = 0;
 
 	//串口初始化
 	drv_uart_init(38400);
@@ -60,76 +62,8 @@ int main( void )
 		led_green_flashing( );
 		drv_delay_ms( 500 );
 	}
-	for( i =0; i< 100; i++)
-	{
-		drv_uart_tx_bytes(wrong , 6 );
-	}
-	/*
-	//CC1101_Clear_RxBuffer( );
-	//CC1101_Set_Mode( RX_MODE );
-
-	while( 1 )	
-	{
-		
-	
-			
-			//状态显示清零
-			led_green_off( );
-			led_red_off( );
-	
-		
-			if(sendFlag==1)
-			{
-				drv_delay_ms( 1000 );
-				sendFlag=0;
-					
-					CC1101_Tx_Packet( (uint8_t *)g_Ashining, 8 , ADDRESS_CHECK );		//模式1发送固定字符,1S一包
-					//CC1101_Tx_Packet( (uint8_t *)g_Ashining, 8 , BROADCAST );
-					led_red_flashing( );
-					
-					CC1101_Clear_RxBuffer( );
-					CC1101_Set_Mode( RX_MODE );
-			}
-					
-		
-		
-		i = CC1101_Rx_Packet( g_RF24L01RxBuffer,&rssi );		//接收字节
-		
-		if( 0 != i )
-		{
-			if(rssi>128) rssi=rssi-256;
-			rssi=rssi-114;
-			ToAscii(rssi,rssi_ascii);
-			sendFlag=1;
-			led_green_flashing( );
-			//drv_uart_tx_bytes( g_RF24L01RxBuffer, i );	//输出接收到的字节
-			drv_uart_tx_bytes( rssi_ascii, 3 );
-			
-			mChannel=mChannel+1;
-			if(mChannel==255) return 0;
-			setChannel(mChannel);
-			//drv_uart_tx_bytes( changeline, 1 );
-			/*
-			if(rssi>100)
-			{
-					drv_uart_tx_bytes( wrong, 6 );
-			}
-			else
-			{
-					drv_uart_tx_bytes( right, 6 );
-			}
-			*/
-		//}
-	
-	//}
-	
-
-	
-	
-		
-	
-		
-
+	uart_receive_len = drv_uart_rx_bytes(g_UartRxBuffer);
+	drv_uart_tx_bytes(g_UartRxBuffer ,uart_receive_len );
 	
 }
 
