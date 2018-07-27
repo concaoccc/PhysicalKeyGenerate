@@ -154,6 +154,7 @@ int main( void )
 	drv_uart_tx_bytes( label, 7 );
 	*/
 	//发送自己的RSSI
+	led_green_on();
 	for(i = 0; i < loop_num; i++)
 	{
 		for(j = 0; j < 5; j++)
@@ -165,7 +166,18 @@ int main( void )
 		}
 		drv_uart_tx_bytes( rssi_buffer, 15 );
 	}
-	led_red_off( );
+	while(1)
+	{
+		i = drv_uart_rx_bytes( g_RF24L01RxBuffer);
+		if (i != 0)
+		{
+			CC1101_Tx_Packet( g_RF24L01RxBuffer, i , ADDRESS_CHECK );
+			CC1101_Clear_RxBuffer( );
+			CC1101_Set_Mode( RX_MODE );
+			i = CC1101_Rx_Packet( g_RF24L01RxBuffer,&rssi );
+			drv_uart_tx_bytes(g_RF24L01RxBuffer, i);
+		}
+	}
 	led_green_off();
 	
 	return 0;
