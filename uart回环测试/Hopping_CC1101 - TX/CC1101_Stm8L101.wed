@@ -1,3 +1,7 @@
+[WorkState_v1-Edit.Breakpoints]
+Break0=TypeFile, source_files\drv_periph\src\drv_cc1101.c, 366, 0, 0, 1,
+Break1=TypeFile, source_files\app\src\main.c, 75, 0, 0, 1,
+Break2=TypeFile, source_files\app\src\main.c, 78, 0, 0, 1,
 
 [WorkState_v1_2]
 ptn_Child1=DockState
@@ -44,7 +48,7 @@ ptn_Child33=Bar-32
 
 [WorkState_v1_2.DockState.Bar-0]
 BarID=59419
-Bars=27
+Bars=23
 Bar#0=0
 Bar#1=59647
 Bar#2=0
@@ -68,10 +72,6 @@ Bar#19=0
 Bar#20=0
 Bar#21=0
 Bar#22=0
-Bar#23=0
-Bar#24=0
-Bar#25=0
-Bar#26=0
 Style=0
 ExStyle=0
 PrevFloating=False
@@ -358,7 +358,7 @@ MRUFloatCY=77
 MRUHorzDockCX=1680
 MRUHorzDockCY=31
 MRUVertDockCX=80
-MRUVertDockCY=610
+MRUVertDockCY=662
 MRUDockingState=0
 DockingStyle=61440
 TypeID=14947
@@ -1250,11 +1250,12 @@ ptn_Child2=ChildFrames
 
 [WorkState_v1_2.Frames.MainFrame]
 WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAAADIPPPPAADIPPPPPPPPPPPPPPPPPPPPHLAAAAAAEHAAAAAAEGEAAAAADBDAAAAA
-Title=ST Visual Develop - CC1101_Stm8L101.stw - [drv_uart.c]
+Title=ST Visual Develop - CC1101_Stm8L101.stw - [main.c]
 
 [WorkState_v1_2.Frames.ChildFrames]
 ptn_Child1=Document-0
 ptn_Child2=Document-1
+ptn_Child3=Document-2
 
 [WorkState_v1_2.Frames.ChildFrames.Document-0]
 ptn_Child1=ViewFrame-0
@@ -1263,8 +1264,8 @@ ptn_Child1=ViewFrame-0
 DocPathName=source_files\app\src\main.c
 DocumentString=
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPCOPPPPPPJBAAAAAAJBAAAAAALECAAAAAPMAAAAAA
-IsActiveChildFrame=False
+WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPCOPPPPPPJBAAAAAAJBAAAAAALECAAAAAPMAAAAAA
+IsActiveChildFrame=True
 IsFrameVisible=True
 
 [WorkState_v1_2.Frames.ChildFrames.Document-1]
@@ -1274,6 +1275,17 @@ ptn_Child1=ViewFrame-0
 DocPathName=source_files\drv_mcu\src\drv_uart.c
 DocumentString=
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPCOPPPPPPJBAAAAAAJBAAAAAAFMEAAAAAJLBAAAAA
-IsActiveChildFrame=True
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPCOPPPPPPJBAAAAAAJBAAAAAAFMEAAAAAJLBAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+
+[WorkState_v1_2.Frames.ChildFrames.Document-2]
+ptn_Child1=ViewFrame-0
+
+[WorkState_v1_2.Frames.ChildFrames.Document-2.ViewFrame-0]
+DocPathName=source_files\drv_periph\src\drv_cc1101.c
+DocumentString=
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPCOPPPPPPCDAAAAAACDAAAAAAONEAAAAACNBAAAAA
+IsActiveChildFrame=False
 IsFrameVisible=True

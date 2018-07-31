@@ -45,6 +45,8 @@ int main( void )
 {	
 	uint8_t i = 0;
 	uint8_t j = 0;
+	uint8_t send_index = 0;
+	uint8_t rece_index = 0;
 	int index = 0;
 	uint8_t current_loop = 0;
 	uint8_t loop_num = frame_num/5;
@@ -73,11 +75,25 @@ int main( void )
 		i = drv_uart_rx_bytes( g_RF24L01RxBuffer);
 		if (i != 0)
 		{
-			CC1101_Tx_Packet( g_RF24L01RxBuffer, i , ADDRESS_CHECK );
+			while(send_index < i-60)
+			{
+				CC1101_Tx_Packet( g_RF24L01RxBuffer+send_index, 60 , ADDRESS_CHECK );
+				send_index += 60;
+			}
+			CC1101_Tx_Packet( g_RF24L01RxBuffer+send_index, i-send_index , ADDRESS_CHECK );
+			send_index = 0;
 			CC1101_Clear_RxBuffer( );
 			CC1101_Set_Mode( RX_MODE );
 			i = CC1101_Rx_Packet( g_RF24L01RxBuffer,&rssi );
-			drv_uart_tx_bytes(g_RF24L01RxBuffer, i);
+			rece_index += i;
+			while(rece_index<g_RF24L01RxBuffer[0]+1)
+			{
+				CC1101_Clear_RxBuffer( );
+			  CC1101_Set_Mode( RX_MODE );
+				i = CC1101_Rx_Packet( g_RF24L01RxBuffer+rece_index,&rssi );
+				rece_index += i;
+			}
+			drv_uart_tx_bytes(g_RF24L01RxBuffer, rece_index);
 		}
 	}
 	led_green_off();

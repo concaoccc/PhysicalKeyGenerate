@@ -22,8 +22,7 @@ const char *g_Ashining = "ashining";
 const char *label = "label!!";
 
 uint8_t g_TxMode = 0;
-uint8_t g_UartRxBuffer[ 100 ] = { 0 };
-uint8_t g_RF24L01RxBuffer[ 32 ] = { 0 }; 
+uint8_t g_RF24L01RxBuffer[ 200 ] = { 0 }; 
 uint8_t rssi_buffer[15] = {0};
 int rssi=0;
 @near int rssi_data[frame_num] = {0};
@@ -68,16 +67,16 @@ int main( void )
 	}
 	//CC1101_Clear_RxBuffer( );
 	//CC1101_Set_Mode( RX_MODE );
-
-	while( 1 )	
-	{
-		
 	
 			
 			//状态显示清零
-			led_green_off( );
-			led_red_off( );
+	led_green_off( );
+	led_red_off( );
 	
+	while( 1 )	
+	{
+		
+
 		
 			if(sendFlag==1)
 			{
@@ -155,6 +154,7 @@ int main( void )
 	*/
 	//发送自己的RSSI
 	led_green_on();
+	led_red_off();
 	for(i = 0; i < loop_num; i++)
 	{
 		for(j = 0; j < 5; j++)
@@ -166,11 +166,14 @@ int main( void )
 		}
 		drv_uart_tx_bytes( rssi_buffer, 15 );
 	}
+	drv_delay_ms( 100 );
+
 	while(1)
 	{
 		i = drv_uart_rx_bytes( g_RF24L01RxBuffer);
 		if (i != 0)
 		{
+			led_red_on();
 			CC1101_Tx_Packet( g_RF24L01RxBuffer, i , ADDRESS_CHECK );
 			CC1101_Clear_RxBuffer( );
 			CC1101_Set_Mode( RX_MODE );

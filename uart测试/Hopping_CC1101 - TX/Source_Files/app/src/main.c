@@ -20,8 +20,7 @@
 
 const char *g_Ashining = "ashining";
 uint8_t g_TxMode = 0;
-uint8_t g_UartRxBuffer[ 100 ] = { 0 };
-uint8_t g_RF24L01RxBuffer[ 32 ] = { 0 }; 
+uint8_t g_UartRxBuffer[ 200 ] = { 0 };
 uint8_t send_test[5] = {1, 2, 3, 4, 5};
 
 int rssi=0;

@@ -20,8 +20,7 @@
 
 const char *g_Ashining = "ashining";
 uint8_t g_TxMode = 0;
-//uint8_t g_UartRxBuffer[ 100 ] = { 0 };
-uint8_t g_RF24L01RxBuffer[ 100 ] = { 0 }; 
+uint8_t g_RF24L01RxBuffer[ 200 ] = { 0 }; 
 uint8_t rssi_buffer[15] = {0};
 @near int rssi_data[frame_num] = { 0 };
 //@near int tmp_value_2[frame_num] = {0 };
@@ -36,44 +35,7 @@ uint8_t *wrong="Wrong\n";
 int sendFlag=0;
 uint8_t mChannel=0;
 
-//进行交织，结果保存在tmp_value_1中
-/*
-void interleave(uint8_t m)
-{
-	//变量初始化
-	uint8_t data_len;
-	uint8_t remainder;
-	uint8_t quo;
-	uint8_t i;
-	uint8_t j;
-	uint8_t index;
-	
-	data_len = frame_num;
-	remainder = frame_num % m;
-	quo = data_len/m;
-	index = 0;
-	for(i =0; i < m; i++)
-	{
-		if (i < remainder)
-		{
-			for(j=0; j<quo+1; j++)
-			{
-				tmp_value_1[index] = rssi_data[i+j*m];
-			}
-			
-		}
-		else
-		{
-			for(j=0; j<quo; j++)
-			{
-				tmp_value_1[index] = rssi_data[i+j*m];
-			}
-			
-		}
-	}
-}
-*/
-//
+
 /**
   * @brief :主函数 
   * @param :无
@@ -169,6 +131,7 @@ int main( void )
 	
 	//进行rssi处理
 	led_green_on();
+	led_red_off();
 	/*
 	for(i = 0; i < loop_num; i++)
 	{
@@ -209,9 +172,17 @@ int main( void )
 		
 		if( 0 != i )
 		{
+			led_red_on();
 			drv_uart_tx_bytes(g_RF24L01RxBuffer, i);
-			i = drv_uart_rx_bytes(g_RF24L01RxBuffer);
-			CC1101_Tx_Packet(g_RF24L01RxBuffer, i, ADDRESS_CHECK);
+			while(1)
+			{
+				i = drv_uart_rx_bytes(g_RF24L01RxBuffer);
+				if (i !=0)
+				{
+					CC1101_Tx_Packet(g_RF24L01RxBuffer, i, ADDRESS_CHECK);
+					break;
+				}
+			}
 		}
 		
 	}
