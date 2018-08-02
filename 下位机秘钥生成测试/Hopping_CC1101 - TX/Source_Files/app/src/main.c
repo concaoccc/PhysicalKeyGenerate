@@ -170,6 +170,10 @@ int main( void )
 		
 		if( 0 != i )
 		{
+			if(i == 3 && g_RF24L01RxBuffer[1] ==1 && g_RF24L01RxBuffer[2]==1)
+			{
+				break;
+			}
 			rece_index += i;
 			while(rece_index<g_RF24L01RxBuffer[0]+1)
 			{
@@ -201,7 +205,7 @@ int main( void )
 		}
 	}
 	led_green_off();
-	
+	led_red_off();
 	return 0;
 	
 		

@@ -1,5 +1,5 @@
 [WorkState_v1-Edit.Breakpoints]
-Break0=TypeFile, source_files\app\src\main.c, 174, 0, 0, 1,
+Break0=TypeFile, source_files\app\src\main.c, 178, 0, 0, 1,
 
 [WorkState_v1_2]
 ptn_Child1=DockState
@@ -46,7 +46,7 @@ ptn_Child33=Bar-32
 
 [WorkState_v1_2.DockState.Bar-0]
 BarID=59419
-Bars=29
+Bars=23
 Bar#0=0
 Bar#1=59647
 Bar#2=0
@@ -70,12 +70,6 @@ Bar#19=0
 Bar#20=0
 Bar#21=0
 Bar#22=0
-Bar#23=0
-Bar#24=0
-Bar#25=0
-Bar#26=0
-Bar#27=0
-Bar#28=0
 Style=0
 ExStyle=0
 PrevFloating=False

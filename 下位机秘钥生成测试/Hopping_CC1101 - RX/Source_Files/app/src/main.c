@@ -159,6 +159,11 @@ for(i = 0; i < loop_num; i++)
 			i = drv_uart_rx_bytes( g_RF24L01RxBuffer);
 		if (i != 0)
 		{
+			if (i == 3 &&g_RF24L01RxBuffer[1]==1 &&g_RF24L01RxBuffer[2]==1 )
+			{
+				CC1101_Tx_Packet( g_RF24L01RxBuffer, 3 , ADDRESS_CHECK );
+				break;
+			}
 			while(send_index < i-60)
 			{
 				CC1101_Tx_Packet( g_RF24L01RxBuffer+send_index, 60 , ADDRESS_CHECK );
@@ -193,6 +198,7 @@ for(i = 0; i < loop_num; i++)
 		
 	}
 	led_green_off( );
+	led_red_off();
 	return 0;
 	
 
