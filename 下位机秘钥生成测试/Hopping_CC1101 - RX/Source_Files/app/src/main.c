@@ -46,6 +46,8 @@ int main( void )
 {	
 	uint8_t i = 0;
 	uint8_t j = 0;
+	uint8_t send_index = 0;
+	uint8_t rece_index = 0;
 	
 	uint8_t loop_num = frame_num/5;
 	int index = 0;
@@ -70,7 +72,6 @@ int main( void )
 
 	CC1101_Clear_RxBuffer( );
 	CC1101_Set_Mode( RX_MODE );
-
 	while( 1 )	
 	{
 		
@@ -116,21 +117,12 @@ int main( void )
 			
 			
 			//drv_uart_tx_bytes( changeline, 1 );
-			/*
-			if(rssi>100)
-			{
-					drv_uart_tx_bytes( wrong, 6 );
-			}
-			else
-			{
-					drv_uart_tx_bytes( right, 6 );
-			}
-			*/
 		}
 	}
 	
 	//进行rssi处理
-	led_green_on();
+	//led_green_on();
+	led_green_off();
 	led_red_off();
 	/*
 	for(i = 0; i < loop_num; i++)
@@ -148,8 +140,7 @@ int main( void )
 		
 	}
 	*/
-	//interleave(20);
-	for(i = 0; i < loop_num; i++)
+for(i = 0; i < loop_num; i++)
 	{
 		for(j = 0; j < 5; j++)
 		{
@@ -160,26 +151,41 @@ int main( void )
 		}
 		drv_uart_tx_bytes( rssi_buffer, 15 );	
 	}
-	
 	//首先准备发送模式
-	CC1101_Clear_RxBuffer( );
-	CC1101_Set_Mode( RX_MODE );
 	while(1)
 	{
 		//首先等待射频
 		
-		i = CC1101_Rx_Packet( g_RF24L01RxBuffer,&rssi );		//接收字节
-		
-		if( 0 != i )
+			i = drv_uart_rx_bytes( g_RF24L01RxBuffer);
+		if (i != 0)
 		{
-			led_red_on();
-			drv_uart_tx_bytes(g_RF24L01RxBuffer, i);
+			while(send_index < i-60)
+			{
+				CC1101_Tx_Packet( g_RF24L01RxBuffer+send_index, 60 , ADDRESS_CHECK );
+				send_index += 60;
+			}
+			CC1101_Tx_Packet( g_RF24L01RxBuffer+send_index, i-send_index , ADDRESS_CHECK );
+			send_index = 0;
+			CC1101_Clear_RxBuffer( );
+			CC1101_Set_Mode( RX_MODE );
 			while(1)
 			{
-				i = drv_uart_rx_bytes(g_RF24L01RxBuffer);
-				if (i !=0)
+				
+				i = CC1101_Rx_Packet( g_RF24L01RxBuffer,&rssi );
+				if(i != 0)
 				{
-					CC1101_Tx_Packet(g_RF24L01RxBuffer, i, ADDRESS_CHECK);
+					rece_index += i;
+					while(rece_index< g_RF24L01RxBuffer[0]+1)
+					{
+						CC1101_Clear_RxBuffer( );
+			      CC1101_Set_Mode( RX_MODE );
+						i = CC1101_Rx_Packet( g_RF24L01RxBuffer+rece_index,&rssi );
+						rece_index += i;
+					}
+					led_green_on();
+					drv_uart_tx_bytes(g_RF24L01RxBuffer, rece_index);
+					
+					rece_index = 0;
 					break;
 				}
 			}

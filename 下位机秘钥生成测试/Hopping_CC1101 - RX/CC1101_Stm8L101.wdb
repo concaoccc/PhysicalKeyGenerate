@@ -128,7 +128,7 @@ ResourceID=0
 
 [WorkState_v1_2.DockState.Bar-2]
 BarID=59422
-Bars=11
+Bars=12
 Bar#0=0
 Bar#1=8003
 Bar#2=8002
@@ -140,6 +140,7 @@ Bar#7=5721
 Bar#8=0
 Bar#9=32769
 Bar#10=0
+Bar#11=0
 Style=0
 ExStyle=0
 PrevFloating=False
