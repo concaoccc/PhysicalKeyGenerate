@@ -206,6 +206,8 @@ for(i = 0; i < loop_num; i++)
 		if (i != 0)
 		{
 			CC1101_Tx_Packet( g_RF24L01RxBuffer, i, ADDRESS_CHECK );
+			g_RF24L01RxBuffer[0]=1;
+			drv_uart_tx_bytes(g_RF24L01RxBuffer,1);
 			led_green_off();
 
 		}
