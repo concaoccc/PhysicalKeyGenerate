@@ -162,10 +162,11 @@ int main( void )
 	}
 	drv_delay_ms( 100 );
 
-	CC1101_Clear_RxBuffer( );
-	CC1101_Set_Mode( RX_MODE );
+	
 	while(1)
 	{
+		CC1101_Clear_RxBuffer( );
+	  CC1101_Set_Mode( RX_MODE );
 		i = CC1101_Rx_Packet( g_RF24L01RxBuffer,&rssi );
 		
 		if( 0 != i )
@@ -210,12 +211,15 @@ int main( void )
 	CC1101_Set_Mode( RX_MODE );
 	while(1)
 	{
+		
 		i = CC1101_Rx_Packet( g_RF24L01RxBuffer,&rssi );
 		
 		if( 0 != i )
 		{
 			led_green_on();
 			drv_uart_tx_bytes(g_RF24L01RxBuffer, i);
+			CC1101_Clear_RxBuffer( );
+	    CC1101_Set_Mode( RX_MODE );
 		}
 	}
 	return 0;

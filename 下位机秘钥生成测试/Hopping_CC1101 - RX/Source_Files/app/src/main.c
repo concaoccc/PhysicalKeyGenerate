@@ -156,7 +156,7 @@ for(i = 0; i < loop_num; i++)
 	{
 		//Ê×ÏÈµÈ´ýÉäÆµ
 		
-			i = drv_uart_rx_bytes( g_RF24L01RxBuffer);
+		i = drv_uart_rx_bytes( g_RF24L01RxBuffer);
 		if (i != 0)
 		{
 			if (i == 3 &&g_RF24L01RxBuffer[1]==1 &&g_RF24L01RxBuffer[2]==1 )
@@ -199,17 +199,17 @@ for(i = 0; i < loop_num; i++)
 	}
 	led_green_off( );
 	led_red_off();
-	/*
 	while(1)
 	{
+		led_green_on();
 		i = drv_uart_rx_bytes( g_RF24L01RxBuffer);
 		if (i != 0)
 		{
 			CC1101_Tx_Packet( g_RF24L01RxBuffer, i, ADDRESS_CHECK );
-			
+			led_green_off();
+
 		}
 	}
-	*/
 	return 0;
 	
 	}
