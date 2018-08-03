@@ -199,15 +199,18 @@ for(i = 0; i < loop_num; i++)
 	}
 	led_green_off( );
 	led_red_off();
+	/*
+	while(1)
+	{
+		i = drv_uart_rx_bytes( g_RF24L01RxBuffer);
+		if (i != 0)
+		{
+			CC1101_Tx_Packet( g_RF24L01RxBuffer, i, ADDRESS_CHECK );
+			
+		}
+	}
+	*/
 	return 0;
 	
-
-	
-	
-		
-	
-		
-
-	
-}
+	}
 
